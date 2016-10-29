@@ -1,5 +1,5 @@
 {
-"skeleton": { "hash": "60NvbkudsFsJ+U5MqiYwRKCE3rw", "spine": "3.4.02", "width": 1606.54, "height": 1994.3 },
+"skeleton": { "hash": "RCvvaWdJ4WnKGi+K4N2xCA+zgO4", "spine": "3.4.02", "width": 1606.54, "height": 1994.3, "images": "./images/" },
 "bones": [
 	{ "name": "root" },
 	{ "name": "b_switch", "parent": "root", "length": 227.52, "rotation": -34.94, "x": 471.89, "y": 379.41 },
