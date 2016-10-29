@@ -1,0 +1,82 @@
+{
+"skeleton": { "hash": "vmGc/Xl9O/TkgMHwrPkYZeLegHo", "spine": "3.4.02", "width": 1004.23, "height": 170.93, "images": "" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "part", "parent": "root", "length": 90.05, "rotation": -1.9, "x": -149.25, "y": 36 },
+	{ "name": "part2", "parent": "part", "length": 82, "rotation": 1.9, "x": 72.02, "y": 0.39 },
+	{ "name": "part3", "parent": "part2", "length": 83, "x": 73, "y": -2 },
+	{ "name": "part4", "parent": "part3", "length": 86, "rotation": 0.66, "x": 68.99, "y": -2.99 },
+	{ "name": "part5", "parent": "part4", "length": 80.99, "rotation": -0.66, "x": 79.98, "y": -1.93 },
+	{ "name": "part6", "parent": "part5", "length": 84.02, "rotation": -1.36, "x": 74 },
+	{ "name": "part7", "parent": "part6", "length": 78, "rotation": 0.62, "x": 77.04, "y": -1.16 },
+	{ "name": "part8", "parent": "part7", "length": 80, "rotation": 0.73, "x": 74, "y": -0.05 },
+	{ "name": "part9", "parent": "part8", "length": 84, "x": 66, "y": -1 },
+	{ "name": "part10", "parent": "part9", "length": 88, "rotation": -0.65, "x": 76, "y": -1 },
+	{ "name": "part11", "parent": "part10", "length": 80, "rotation": 1.36, "x": 79.02, "y": -2.1 },
+	{ "name": "bone", "parent": "part11" },
+	{ "name": "part12", "parent": "bone", "length": 83.05, "rotation": -0.13, "x": 62.99, "y": -0.78 },
+	{ "name": "part13", "parent": "part12", "length": 78.02, "rotation": -0.7, "x": 73.13, "y": -2.35 }
+],
+"slots": [
+	{ "name": "part", "bone": "part", "attachment": "part" },
+	{ "name": "part2", "bone": "part2", "attachment": "part" },
+	{ "name": "part3", "bone": "part3", "attachment": "part" },
+	{ "name": "part4", "bone": "part4", "attachment": "part" },
+	{ "name": "part5", "bone": "part5", "attachment": "part" },
+	{ "name": "part6", "bone": "part6", "attachment": "part" },
+	{ "name": "part7", "bone": "part7", "attachment": "part" },
+	{ "name": "part8", "bone": "part8", "attachment": "part" },
+	{ "name": "part9", "bone": "part9", "attachment": "part" },
+	{ "name": "part10", "bone": "part10", "attachment": "part" },
+	{ "name": "part11", "bone": "part11", "attachment": "part" },
+	{ "name": "part14", "bone": "part12", "attachment": "part" },
+	{ "name": "part12", "bone": "part13" },
+	{ "name": "part13", "bone": "part13", "attachment": "part" }
+],
+"skins": {
+	"default": {
+		"part": {
+			"part": { "x": 43.89, "y": -3.53, "rotation": 1.9, "width": 137, "height": 152 }
+		},
+		"part10": {
+			"part": { "x": 40.78, "y": -2.53, "rotation": 0.65, "width": 137, "height": 152 }
+		},
+		"part11": {
+			"part": { "x": 32.95, "y": -3.41, "rotation": -0.71, "width": 137, "height": 152 }
+		},
+		"part13": {
+			"part": { "x": 33.06, "y": -2.15, "rotation": 1.46, "width": 137, "height": 152 }
+		},
+		"part14": {
+			"part": { "x": 39.16, "y": -3.81, "rotation": 2.45, "width": 137, "height": 152 }
+		},
+		"part2": {
+			"part": { "x": 39.75, "y": -4, "width": 137, "height": 152 }
+		},
+		"part3": {
+			"part": { "x": 40.75, "y": -4, "width": 137, "height": 152 }
+		},
+		"part4": {
+			"part": { "x": 42.71, "y": -3.49, "rotation": -0.66, "width": 137, "height": 152 }
+		},
+		"part5": {
+			"part": { "x": 37.75, "y": -2.99, "width": 137, "height": 152 }
+		},
+		"part6": {
+			"part": { "x": 39.85, "y": -4.05, "rotation": 1.36, "width": 137, "height": 152 }
+		},
+		"part7": {
+			"part": { "x": 34.78, "y": -2.55, "rotation": 0.73, "width": 137, "height": 152 }
+		},
+		"part8": {
+			"part": { "x": 36.75, "y": -3, "width": 137, "height": 152 }
+		},
+		"part9": {
+			"part": { "x": 39.75, "y": -4, "width": 137, "height": 152 }
+		}
+	}
+},
+"animations": {
+	"animation": {}
+}
+}
