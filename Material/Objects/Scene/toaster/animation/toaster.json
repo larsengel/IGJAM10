@@ -1,5 +1,5 @@
 {
-"skeleton": { "hash": "RCvvaWdJ4WnKGi+K4N2xCA+zgO4", "spine": "3.4.02", "width": 1606.54, "height": 1994.3, "images": "./images/" },
+"skeleton": { "hash": "IPK613DTvw/W668cWatbjmwxtfY", "spine": "3.4.02", "width": 1606.54, "height": 1994.3, "images": "./images/" },
 "bones": [
 	{ "name": "root" },
 	{ "name": "b_switch", "parent": "root", "length": 227.52, "rotation": -34.94, "x": 471.89, "y": 379.41 },
@@ -170,6 +170,9 @@
 					{ "time": 0.1, "color": "ffffffff" },
 					{ "time": 0.8, "color": "ffffff95" },
 					{ "time": 2, "color": "fffffff6" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "Ebene 1" }
 				]
 			},
 			"fire2": {
@@ -177,6 +180,9 @@
 					{ "time": 0, "color": "ffffffff" },
 					{ "time": 1.5, "color": "ffffffaa" },
 					{ "time": 2, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "Ebene 1" }
 				]
 			},
 			"fire3": {
@@ -187,6 +193,9 @@
 					{ "time": 1.4333, "color": "ffffffff" },
 					{ "time": 1.8666, "color": "ffffffa0" },
 					{ "time": 2, "color": "ffffffc2" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "Ebene 1" }
 				]
 			},
 			"funken": {
@@ -194,6 +203,9 @@
 					{ "time": 0, "color": "ffffffff", "curve": "stepped" },
 					{ "time": 0.5333, "color": "ffffffff" },
 					{ "time": 0.6333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "funken" }
 				]
 			},
 			"funken2": {
@@ -203,6 +215,9 @@
 					{ "time": 0.6666, "color": "ffffffff", "curve": "stepped" },
 					{ "time": 0.8333, "color": "ffffffff" },
 					{ "time": 0.9333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "funken" }
 				]
 			},
 			"funken3": {
@@ -210,6 +225,9 @@
 					{ "time": 0, "color": "ffffffff", "curve": "stepped" },
 					{ "time": 0.1, "color": "ffffffff" },
 					{ "time": 0.2, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "funken" }
 				]
 			},
 			"smoke": {
@@ -219,12 +237,18 @@
 					{ "time": 0.4666, "color": "ffffffff", "curve": "stepped" },
 					{ "time": 1, "color": "ffffffff" },
 					{ "time": 2, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "smoke" }
 				]
 			},
 			"smoke2": {
 				"color": [
 					{ "time": 0, "color": "ffffffff" },
 					{ "time": 2, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "smoke" }
 				]
 			},
 			"smoke3": {
@@ -232,6 +256,9 @@
 					{ "time": 0, "color": "ffffff00" },
 					{ "time": 0.3666, "color": "ffffffbe" },
 					{ "time": 2, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "smoke" }
 				]
 			},
 			"smoke4": {
@@ -239,6 +266,9 @@
 					{ "time": 0, "color": "ffffff00" },
 					{ "time": 0.2, "color": "ffffffff" },
 					{ "time": 1.3333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "smoke" }
 				]
 			}
 		},
