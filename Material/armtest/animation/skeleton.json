@@ -1,5 +1,5 @@
 {
-"skeleton": { "hash": "vmGc/Xl9O/TkgMHwrPkYZeLegHo", "spine": "3.4.02", "width": 1004.23, "height": 170.93, "images": "" },
+"skeleton": { "hash": "6Vmh9A2d3QWpn6zCAQ0qPtmYoCk", "spine": "3.4.02", "width": 1004.23, "height": 170.93, "images": "" },
 "bones": [
 	{ "name": "root" },
 	{ "name": "part", "parent": "root", "length": 90.05, "rotation": -1.9, "x": -149.25, "y": 36 },
@@ -13,8 +13,7 @@
 	{ "name": "part9", "parent": "part8", "length": 84, "x": 66, "y": -1 },
 	{ "name": "part10", "parent": "part9", "length": 88, "rotation": -0.65, "x": 76, "y": -1 },
 	{ "name": "part11", "parent": "part10", "length": 80, "rotation": 1.36, "x": 79.02, "y": -2.1 },
-	{ "name": "bone", "parent": "part11" },
-	{ "name": "part12", "parent": "bone", "length": 83.05, "rotation": -0.13, "x": 62.99, "y": -0.78 },
+	{ "name": "part12", "parent": "part11", "length": 83.05, "rotation": -0.13, "x": 62.99, "y": -0.78 },
 	{ "name": "part13", "parent": "part12", "length": 78.02, "rotation": -0.7, "x": 73.13, "y": -2.35 }
 ],
 "slots": [
