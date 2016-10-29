@@ -1,5 +1,5 @@
 {
-"skeleton": { "hash": "3DBvPepZsJMuwrlP3L6WFYFjUDw", "spine": "3.4.02", "width": 1606.54, "height": 1994.3, "images": "./images/" },
+"skeleton": { "hash": "hXr2g7PTeLTgOujZT8GMYbX2jho", "spine": "3.4.02", "width": 1606.54, "height": 1994.3, "images": "./images/" },
 "bones": [
 	{ "name": "root" },
 	{ "name": "b_switch", "parent": "root", "length": 227.52, "rotation": -34.94, "x": 471.89, "y": 379.41 },
@@ -164,6 +164,11 @@
 	},
 	"toaster_burning": {
 		"slots": {
+			"burnt": {
+				"attachment": [
+					{ "time": 0, "name": "burnt" }
+				]
+			},
 			"fire1": {
 				"color": [
 					{ "time": 0, "color": "fffffff6" },
