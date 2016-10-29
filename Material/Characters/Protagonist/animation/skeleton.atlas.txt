@@ -1,194 +1,173 @@
 
 skeleton.png
-size: 4096,256
+size: 2048,256
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 _0002_chara-right_leg_up
   rotate: true
-  xy: 0, 0
+  xy: 0, 18
   size: 81, 200
   orig: 81, 200
   offset: 0, 0
   index: -1
 _0003_chara-left_leg_up
   rotate: true
-  xy: 3077, 152
+  xy: 1505, 52
   size: 81, 200
   orig: 81, 200
   offset: 0, 0
   index: -1
 _0004_chara-slip
   rotate: false
-  xy: 1373, 27
+  xy: 1705, 0
   size: 142, 83
   orig: 142, 83
   offset: 0, 0
   index: -1
 _0005_chara-shirt
   rotate: true
-  xy: 588, 94
+  xy: 252, 117
   size: 139, 233
   orig: 139, 233
   offset: 0, 0
   index: -1
 chara-arm-links-oben
   rotate: true
-  xy: 200, 11
+  xy: 1847, 13
   size: 70, 120
   orig: 72, 122
   offset: 1, 1
   index: -1
 chara-arm-links-unten
-  rotate: true
-  xy: 1652, 55
+  rotate: false
+  xy: 1992, 118
   size: 55, 138
   orig: 57, 140
   offset: 1, 1
   index: -1
 chara-arm-rechts-oben
-  rotate: true
-  xy: 1515, 42
+  rotate: false
+  xy: 1924, 119
   size: 68, 137
   orig: 70, 139
   offset: 1, 1
   index: -1
 chara-arm-rechts-unten
   rotate: true
-  xy: 3077, 127
+  xy: 200, 37
   size: 25, 125
   orig: 27, 127
   offset: 1, 1
   index: -1
 chara-arm_left_down
-  rotate: true
-  xy: 1916, 59
+  rotate: false
+  xy: 378, 3
   size: 51, 114
   orig: 51, 114
   offset: 0, 0
   index: -1
 chara-bein-links-unten
   rotate: true
-  xy: 1024, 62
+  xy: 1505, 4
   size: 48, 177
   orig: 50, 191
   offset: 1, 13
   index: -1
 chara-bein-rechts-unten
   rotate: true
-  xy: 3277, 183
+  xy: 1705, 83
   size: 50, 178
   orig: 52, 191
   offset: 1, 12
   index: -1
 chara-body
   rotate: true
-  xy: 2878, 106
+  xy: 1306, 6
   size: 127, 199
   orig: 127, 199
   offset: 0, 0
   index: -1
-chara-cloth
-  rotate: true
-  xy: 0, 81
-  size: 152, 336
-  orig: 152, 336
-  offset: 0, 0
-  index: -1
 chara-face
   rotate: false
-  xy: 1024, 110
+  xy: 688, 133
   size: 206, 123
   orig: 206, 123
   offset: 0, 0
   index: -1
 chara-left_arm_down
   rotate: true
-  xy: 1790, 55
+  xy: 252, 62
   size: 55, 126
   orig: 55, 126
   offset: 0, 0
   index: -1
-chara-left_leg_up
-  rotate: true
-  xy: 3455, 186
-  size: 47, 175
-  orig: 47, 175
-  offset: 0, 0
-  index: -1
-chara-right_leg_up
-  rotate: true
-  xy: 1201, 54
-  size: 56, 172
-  orig: 56, 172
-  offset: 0, 0
-  index: -1
 chara-shocked_01
   rotate: false
-  xy: 1230, 110
+  xy: 894, 133
   size: 206, 123
   orig: 206, 123
   offset: 0, 0
   index: -1
 chara-shocked_02
   rotate: false
-  xy: 1436, 110
+  xy: 1100, 133
   size: 206, 123
   orig: 206, 123
   offset: 0, 0
   index: -1
 chara-talk_01
   rotate: false
-  xy: 1642, 110
+  xy: 1306, 133
   size: 206, 123
   orig: 206, 123
   offset: 0, 0
   index: -1
 chara-talk_02
   rotate: false
-  xy: 1848, 110
+  xy: 1512, 133
   size: 206, 123
   orig: 206, 123
   offset: 0, 0
   index: -1
 chara-talk_03
   rotate: false
-  xy: 2054, 110
+  xy: 1718, 133
   size: 206, 123
   orig: 206, 123
   offset: 0, 0
   index: -1
 chara_blink_face_02
   rotate: false
-  xy: 2260, 110
+  xy: 688, 10
   size: 206, 123
   orig: 206, 123
   offset: 0, 0
   index: -1
 chara_blink_face_03
   rotate: false
-  xy: 2466, 110
+  xy: 894, 10
   size: 206, 123
   orig: 206, 123
   offset: 0, 0
   index: -1
 chara_blink_face_04
   rotate: false
-  xy: 2672, 110
+  xy: 1100, 10
   size: 206, 123
   orig: 206, 123
   offset: 0, 0
   index: -1
 chara_hair_back
   rotate: false
-  xy: 336, 76
+  xy: 0, 99
   size: 252, 157
   orig: 252, 157
   offset: 0, 0
   index: -1
 chara_hair_front
   rotate: true
-  xy: 821, 61
+  xy: 485, 84
   size: 172, 203
   orig: 172, 203
   offset: 0, 0
