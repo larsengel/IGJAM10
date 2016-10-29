@@ -1,5 +1,5 @@
 {
-"skeleton": { "hash": "IPK613DTvw/W668cWatbjmwxtfY", "spine": "3.4.02", "width": 1606.54, "height": 1994.3, "images": "./images/" },
+"skeleton": { "hash": "3DBvPepZsJMuwrlP3L6WFYFjUDw", "spine": "3.4.02", "width": 1606.54, "height": 1994.3, "images": "./images/" },
 "bones": [
 	{ "name": "root" },
 	{ "name": "b_switch", "parent": "root", "length": 227.52, "rotation": -34.94, "x": 471.89, "y": 379.41 },
@@ -488,6 +488,11 @@
 	},
 	"toaster_burnt": {
 		"slots": {
+			"burnt": {
+				"attachment": [
+					{ "time": 0, "name": "burnt" }
+				]
+			},
 			"fire1": {
 				"attachment": [
 					{ "time": 0, "name": null }
@@ -622,6 +627,70 @@
 			}
 		}
 	},
+	"toaster_burnt_toast": {
+		"slots": {
+			"burnt": {
+				"attachment": [
+					{ "time": 0, "name": "burnt" }
+				]
+			},
+			"fire1": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"fire2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"fire3": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"funken": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"funken2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"funken3": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"smoke": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"smoke2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"smoke3": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"smoke4": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"toast": {
+				"attachment": [
+					{ "time": 0, "name": "toast" }
+				]
+			}
+		}
+	},
 	"toaster_toast": {
 		"slots": {
 			"burnt": {
@@ -677,6 +746,11 @@
 			"smoke4": {
 				"attachment": [
 					{ "time": 0, "name": null }
+				]
+			},
+			"toast": {
+				"attachment": [
+					{ "time": 0, "name": "toast" }
 				]
 			}
 		}
