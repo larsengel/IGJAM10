@@ -1,5 +1,5 @@
 {
-"skeleton": { "hash": "QnNsP4AX+IDfD3xQiFYHItkVlVQ", "spine": "3.4.02", "width": 260.47, "height": 787.46, "images": "./images/" },
+"skeleton": { "hash": "zKVTba5Wz/a/frKHs/ITH/UVbNg", "spine": "3.4.02", "width": 260.47, "height": 787.46, "images": "./images/" },
 "bones": [
 	{ "name": "root" },
 	{ "name": "chara-cloth", "parent": "root", "length": 220.61, "rotation": 89.51, "x": -2.14, "y": 320.42 },
@@ -22,9 +22,6 @@
 	{ "name": "_0003_chara-left_leg_up", "bone": "chara-left_leg_up", "attachment": "_0003_chara-left_leg_up" },
 	{ "name": "chara-left_leg_up", "bone": "chara-left_leg_up" },
 	{ "name": "chara-right_leg_up", "bone": "chara-right_leg_up", "attachment": "chara-right_leg_up" },
-	{ "name": "chara-right_leg_down", "bone": "chara-right_leg_down2" },
-	{ "name": "chara-left_leg_down", "bone": "chara-left_leg_down2" },
-	{ "name": "chara-left_arm_top2", "bone": "chara-left_arm_top3" },
 	{ "name": "chara-left_arm_down2", "bone": "chara-left_arm_down4" },
 	{ "name": "chara-cloth", "bone": "chara-cloth", "attachment": "chara-cloth" },
 	{ "name": "chara-body", "bone": "chara-cloth", "attachment": "chara-body" },
@@ -38,8 +35,6 @@
 	{ "name": "chara_blink_face_03", "bone": "b_head", "attachment": "chara_blink_face_03" },
 	{ "name": "chara_blink_face_04", "bone": "b_head", "attachment": "chara_blink_face_04" },
 	{ "name": "chara_hair_front", "bone": "b_head", "attachment": "chara_hair_front" },
-	{ "name": "chara-left_arm_top", "bone": "chara-left_arm_top3" },
-	{ "name": "chara-right_arm_top", "bone": "chara-right_arm_top" },
 	{ "name": "chara-right_leg_up2", "bone": "chara-right_leg_up", "attachment": "_0002_chara-right_leg_up" },
 	{ "name": "chara-left_arm_top3", "bone": "chara-left_arm_top3", "attachment": "chara-arm-links-oben" },
 	{ "name": "chara-left_arm_down3", "bone": "chara-left_arm_down4" },
@@ -49,7 +44,6 @@
 	{ "name": "chara-right_leg_down2", "bone": "chara-right_leg_down2", "attachment": "chara-bein-rechts-unten" },
 	{ "name": "chara-cloth3", "bone": "chara-cloth", "attachment": "_0004_chara-slip" },
 	{ "name": "chara-cloth2", "bone": "chara-cloth", "attachment": "_0005_chara-shirt" },
-	{ "name": "chara-right_arm_down2", "bone": "chara-right_arm_down3" },
 	{ "name": "chara-right_arm_top2", "bone": "chara-right_arm_top", "attachment": "chara-arm-rechts-oben" },
 	{ "name": "chara-right_arm_down3", "bone": "chara-right_arm_down3", "attachment": "chara-arm-rechts-unten" }
 ],
@@ -82,17 +76,8 @@
 		"chara-left_arm_down4": {
 			"chara-arm-links-unten": { "x": 53.64, "y": 1.85, "rotation": 108.09, "width": 57, "height": 140 }
 		},
-		"chara-left_arm_top": {
-			"_0000_chara-left_arm_top": { "x": -6.13, "y": -33.47, "rotation": 49.85, "width": 51, "height": 104 }
-		},
-		"chara-left_arm_top2": {
-			"chara-left_arm_top": { "x": -1.3, "y": -11.12, "rotation": 49.85, "width": 91, "height": 131 }
-		},
 		"chara-left_arm_top3": {
 			"chara-arm-links-oben": { "x": 45.4, "y": -0.44, "rotation": 118.35, "width": 72, "height": 122 }
-		},
-		"chara-left_leg_down": {
-			"chara-left_leg_down": { "x": 89.65, "y": -19.5, "rotation": 76.35, "width": 48, "height": 168 }
 		},
 		"chara-left_leg_down2": {
 			"chara-bein-links-unten": { "x": 80.09, "y": -5.84, "rotation": 82.94, "width": 50, "height": 191 }
@@ -100,20 +85,11 @@
 		"chara-left_leg_up": {
 			"chara-left_leg_up": { "x": 71.81, "y": 6.64, "rotation": 80.59, "width": 47, "height": 175 }
 		},
-		"chara-right_arm_down2": {
-			"chara-right_arm_down": { "x": 106.21, "y": 5.83, "rotation": 95.3, "width": 34, "height": 117 }
-		},
 		"chara-right_arm_down3": {
 			"chara-arm-rechts-unten": { "x": 55.86, "y": -1.09, "rotation": 91.68, "width": 27, "height": 127 }
 		},
-		"chara-right_arm_top": {
-			"_0001_chara-right_arm_top": { "x": 67.12, "y": 15.08, "rotation": 65.96, "width": 54, "height": 135 }
-		},
 		"chara-right_arm_top2": {
 			"chara-arm-rechts-oben": { "x": 50.32, "y": -2.09, "rotation": 66.16, "width": 70, "height": 139 }
-		},
-		"chara-right_leg_down": {
-			"chara-right_leg_down": { "x": 74.32, "y": -7.34, "rotation": 80.53, "width": 50, "height": 156 }
 		},
 		"chara-right_leg_down2": {
 			"chara-bein-rechts-unten": { "x": 75.01, "y": -8.95, "rotation": 80.71, "width": 52, "height": 191 }
