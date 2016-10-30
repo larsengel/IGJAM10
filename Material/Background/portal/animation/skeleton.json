@@ -1,5 +1,5 @@
 {
-"skeleton": { "hash": "WJ64cj6AO3Kby0h5OIShNN+Zgy8", "spine": "3.4.02", "width": 1374.16, "height": 1159.78, "images": "" },
+"skeleton": { "hash": "QrTJkHuEOHcFkhTxY1RIccBjiQk", "spine": "3.4.02", "width": 1374.16, "height": 1159.78, "images": "" },
 "bones": [
 	{ "name": "root" },
 	{ "name": "_0005_chara-shirt", "parent": "root", "length": 280.79, "rotation": 89.58, "x": 908.64, "y": 606.06 },
@@ -497,9 +497,44 @@
 	},
 	"enter": {
 		"slots": {
+			"_0005_chara-shirt": {
+				"attachment": [
+					{ "time": 0, "name": "_0005_chara-shirt" }
+				]
+			},
+			"chara-arm-rechts-oben": {
+				"attachment": [
+					{ "time": 0, "name": "chara-arm-rechts-oben" }
+				]
+			},
+			"chara-arm-rechts-unten": {
+				"attachment": [
+					{ "time": 0, "name": "chara-arm-rechts-unten" }
+				]
+			},
+			"chara-body": {
+				"attachment": [
+					{ "time": 0, "name": "chara-body" }
+				]
+			},
+			"chara-face": {
+				"attachment": [
+					{ "time": 0, "name": "chara-face" }
+				]
+			},
 			"chara_blink_face_04": {
 				"attachment": [
 					{ "time": 0, "name": null }
+				]
+			},
+			"chara_hair_back": {
+				"attachment": [
+					{ "time": 0, "name": "chara_hair_back" }
+				]
+			},
+			"chara_hair_front": {
+				"attachment": [
+					{ "time": 0, "name": "chara_hair_front" }
 				]
 			},
 			"portal_past_preview": {
@@ -1369,6 +1404,31 @@
 	},
 	"idleentered": {
 		"slots": {
+			"_0005_chara-shirt": {
+				"attachment": [
+					{ "time": 0, "name": "_0005_chara-shirt" }
+				]
+			},
+			"chara-arm-rechts-oben": {
+				"attachment": [
+					{ "time": 0, "name": "chara-arm-rechts-oben" }
+				]
+			},
+			"chara-arm-rechts-unten": {
+				"attachment": [
+					{ "time": 0, "name": "chara-arm-rechts-unten" }
+				]
+			},
+			"chara-body": {
+				"attachment": [
+					{ "time": 0, "name": "chara-body" }
+				]
+			},
+			"chara-face": {
+				"attachment": [
+					{ "time": 0, "name": "chara-face" }
+				]
+			},
 			"chara-talk_03": {
 				"attachment": [
 					{ "time": 0, "name": null }
@@ -1379,6 +1439,16 @@
 					{ "time": 0, "name": null },
 					{ "time": 1.6, "name": "chara_blink_face_04" },
 					{ "time": 1.7, "name": null }
+				]
+			},
+			"chara_hair_back": {
+				"attachment": [
+					{ "time": 0, "name": "chara_hair_back" }
+				]
+			},
+			"chara_hair_front": {
+				"attachment": [
+					{ "time": 0, "name": "chara_hair_front" }
 				]
 			},
 			"portal_past_preview": {
@@ -1968,6 +2038,31 @@
 	},
 	"talk": {
 		"slots": {
+			"_0005_chara-shirt": {
+				"attachment": [
+					{ "time": 0, "name": "_0005_chara-shirt" }
+				]
+			},
+			"chara-arm-rechts-oben": {
+				"attachment": [
+					{ "time": 0, "name": "chara-arm-rechts-oben" }
+				]
+			},
+			"chara-arm-rechts-unten": {
+				"attachment": [
+					{ "time": 0, "name": "chara-arm-rechts-unten" }
+				]
+			},
+			"chara-body": {
+				"attachment": [
+					{ "time": 0, "name": "chara-body" }
+				]
+			},
+			"chara-face": {
+				"attachment": [
+					{ "time": 0, "name": "chara-face" }
+				]
+			},
 			"chara-talk_03": {
 				"attachment": [
 					{ "time": 0, "name": null },
@@ -1985,6 +2080,16 @@
 					{ "time": 0, "name": null },
 					{ "time": 1.6, "name": "chara_blink_face_04" },
 					{ "time": 1.7, "name": null }
+				]
+			},
+			"chara_hair_back": {
+				"attachment": [
+					{ "time": 0, "name": "chara_hair_back" }
+				]
+			},
+			"chara_hair_front": {
+				"attachment": [
+					{ "time": 0, "name": "chara_hair_front" }
 				]
 			},
 			"portal_past_preview": {
