@@ -1,0 +1,106 @@
+Initialize engine version: 5.4.2f2 (b7e030c65c9b)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GT 730M (ID=0x1290)
+    Vendor:   NVIDIA
+    VRAM:     997 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\lars.engel\dev\IGJAM10\Builds\Jam_Presentation_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\lars.engel\dev\IGJAM10\Builds\Jam_Presentation_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\lars.engel\dev\IGJAM10\Builds\Jam_Presentation_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\lars.engel\dev\IGJAM10\Builds\Jam_Presentation_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\lars.engel\dev\IGJAM10\Builds\Jam_Presentation_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\lars.engel\dev\IGJAM10\Builds\Jam_Presentation_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\lars.engel\dev\IGJAM10\Builds\Jam_Presentation_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\lars.engel\dev\IGJAM10\Builds\Jam_Presentation_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+- Completed reload, in  0.048 seconds
+Platform assembly: C:\Users\lars.engel\dev\IGJAM10\Builds\Jam_Presentation_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\lars.engel\dev\IGJAM10\Builds\Jam_Presentation_Data\Managed\System.dll (this message is harmless)
+desktop: 2880x1620 60Hz; virtual: 2880x1620 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 0.771917 ms
+PlayerPrefs Key 'AC_IGJAM_Adventure_0' loaded
+
+-----------------------------
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+PlayerStart 'PlayerStart2D' has no Camera On Start
+
+-----------------------------
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1945.
+Total: 1.646472 ms (FindLiveObjects: 0.070135 ms CreateObjectMapping: 0.073556 ms MarkObjects: 1.476265 ms  DeleteObjects: 0.021382 ms)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.602566 ms
+New player prefab found - Player deleted
+
+-----------------------------
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2395.
+Total: 1.930007 ms (FindLiveObjects: 0.070990 ms CreateObjectMapping: 0.095367 ms MarkObjects: 1.747398 ms  DeleteObjects: 0.015395 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 2395.
+Total: 2.014683 ms (FindLiveObjects: 0.106913 ms CreateObjectMapping: 0.091090 ms MarkObjects: 1.811119 ms  DeleteObjects: 0.005131 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+PlayerStart 'PlayerStart2D' has no Camera On Start
+
+-----------------------------
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 2396.
+Total: 2.145973 ms (FindLiveObjects: 0.085103 ms CreateObjectMapping: 0.097933 ms MarkObjects: 1.950534 ms  DeleteObjects: 0.012401 ms)
+
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.522594 ms
+FollowSortingMap on Manni The Mammoth must be attached alongside a Renderer component.
+
+-----------------------------
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+
+Unloading 233 unused Assets to reduce memory usage. Loaded Objects now: 2156.
+Total: 2.722024 ms (FindLiveObjects: 0.081682 ms CreateObjectMapping: 0.111617 ms MarkObjects: 1.779472 ms  DeleteObjects: 0.748824 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 2156.
+Total: 2.012544 ms (FindLiveObjects: 0.097505 ms CreateObjectMapping: 0.067997 ms MarkObjects: 1.794440 ms  DeleteObjects: 0.052173 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+PlayerStart 'PlayerStart2D' has no Camera On Start
+
+-----------------------------
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Manni The Mammoth cannot find Sorting Map to follow!
+
+-----------------------------
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 2156.
+Total: 2.185317 ms (FindLiveObjects: 0.064575 ms CreateObjectMapping: 0.076550 ms MarkObjects: 1.991589 ms  DeleteObjects: 0.052601 ms)
+
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 2174 -> priority: 1 
+  Thread -> id: 3e8 -> priority: 1 
