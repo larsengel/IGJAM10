@@ -1,5 +1,5 @@
 {
-"skeleton": { "hash": "oVw0iIDiplBu4BfvajyVRyse344", "spine": "3.4.02", "width": 503.65, "height": 659.55, "images": "./images/" },
+"skeleton": { "hash": "A5KmAJl2EJoZwXS9BzadZ//9UYI", "spine": "3.4.02", "width": 504.37, "height": 659.73, "images": "./images/" },
 "bones": [
 	{ "name": "root", "x": 1.26 },
 	{ "name": "mammut_koerper", "parent": "root", "length": 244.31, "rotation": 86.58, "x": 118.23, "y": 50.86 },
@@ -49,13 +49,13 @@
 	{ "name": "Arm_left_handschuh", "bone": "mammut_arm_links_handschuh", "attachment": "Arm_left_handschuh" },
 	{ "name": "Arm_left_handx", "bone": "mammut_arm_links_handx", "attachment": "Arm_left_handx" },
 	{ "name": "Arm_right", "bone": "mammut_arm_rechts", "attachment": "Arm_right" },
-	{ "name": "euter", "bone": "euter", "attachment": "euter" },
 	{ "name": "lasermammut_lightcrayong", "bone": "mammut_koerper", "attachment": "lasermammut_lightcrayong" },
 	{ "name": "lasermammut_nomorecrayon", "bone": "mammut_koerper", "attachment": "lasermammut_nomorecrayon" },
 	{ "name": "mammut_umhang", "bone": "mammut_koerper", "attachment": "mammut_umhang" },
 	{ "name": "arm_right_handschuh", "bone": "mammut_arm_rechts_handschuh", "attachment": "arm_right_handschuh" },
 	{ "name": "arm_right_handx", "bone": "mammut_arm_rechts_handx", "attachment": "arm_right_handx" },
 	{ "name": "leg_left", "bone": "mammut_bein_links", "attachment": "leg_left" },
+	{ "name": "xy", "bone": "euter", "attachment": "xy" },
 	{ "name": "leg_right", "bone": "mammut_bein_rechts", "attachment": "leg_right" },
 	{ "name": "head", "bone": "mammut_kopf", "attachment": "head" },
 	{ "name": "mouth_left", "bone": "mammut-mouth_left", "attachment": "mouth_left" },
@@ -71,9 +71,6 @@
 ],
 "skins": {
 	"default": {
-		"euter": {
-			"euter": { "x": 49.58, "y": -1.81, "scaleX": 1.224, "scaleY": 1.224, "rotation": 155.47, "width": 124, "height": 100 }
-		},
 		"lasermammut-leuchtelemente": {
 			"lasermammut-leuchtelemente": { "x": 43.85, "y": 51.12, "rotation": -86.58, "width": 500, "height": 339 }
 		},
@@ -103,6 +100,59 @@
 		},
 		"mammut_umhang": {
 			"mammut_umhang": { "x": 199.17, "y": 11.46, "rotation": -86.58, "width": 365, "height": 147 }
+		}
+	},
+	"euterpirat": {
+		"Arm_left": {
+			"Arm_left": { "name": "lasermammut_arm_links", "x": 25.52, "y": 2.17, "rotation": 119.01, "width": 98, "height": 151 }
+		},
+		"Arm_left_handschuh": {
+			"Arm_left_handschuh": { "name": "lasermammut_arm_links_handschuh", "x": 26.02, "y": 5.19, "rotation": 149.69, "width": 127, "height": 112 }
+		},
+		"Arm_left_handx": {
+			"Arm_left_handx": { "name": "lasermammut_piratenversion_glove", "x": 43.25, "y": -0.88, "rotation": 123.66, "width": 115, "height": 108 }
+		},
+		"Arm_right": {
+			"Arm_right": { "name": "lasermammut_arm_rechts", "x": 78.35, "y": -11.29, "rotation": 90.48, "width": 127, "height": 192 }
+		},
+		"arm_right_handschuh": {
+			"arm_right_handschuh": { "name": "lasermammut_arm_rechts_handschuh", "x": 28.69, "y": 10.84, "rotation": 147.17, "width": 171, "height": 128 }
+		},
+		"arm_right_handx": {
+			"arm_right_handx": { "name": "lasermammut_arm_rechts_handx", "x": 43.6, "y": -4.18, "rotation": 121.56, "width": 98, "height": 99 }
+		},
+		"body": {
+			"body": { "name": "_0001_lasermammut_koerper", "x": 62.24, "y": 70.98, "rotation": -86.58, "width": 394, "height": 366 }
+		},
+		"head": {
+			"head": {
+				"name": "lasermammut_piratenversion_kopf",
+				"x": 96.05,
+				"y": 7.36,
+				"scaleX": 1.356,
+				"scaleY": 1.356,
+				"rotation": -97.73,
+				"width": 206,
+				"height": 170
+			}
+		},
+		"leg_left": {
+			"leg_left": { "name": "_0000_lasermammut_bein_links", "x": 74.58, "y": -10.26, "rotation": 99.54, "width": 118, "height": 238 }
+		},
+		"leg_right": {
+			"leg_right": { "name": "_0002_lasermammut_bein_rechts", "x": 66.27, "y": -8.59, "rotation": 95.95, "width": 126, "height": 223 }
+		},
+		"mouth_left": {
+			"mouth_left": { "name": "lasermammut_mund_links", "x": 83.36, "y": -4.81, "rotation": 107.83, "width": 149, "height": 196 }
+		},
+		"mouth_right": {
+			"mouth_right": { "name": "lasermammut_mund_rechts", "x": 73.3, "y": -9.05, "rotation": 106.09, "width": 173, "height": 257 }
+		},
+		"ruessel4": {
+			"ruessel4": { "name": "mammut_ruessel_4", "x": 31.33, "y": 3.77, "rotation": 100.03, "width": 47, "height": 94 }
+		},
+		"xy": {
+			"xy": { "name": "euter", "x": 49.58, "y": -1.81, "scaleX": 1.224, "scaleY": 1.224, "rotation": 155.47, "width": 124, "height": 100 }
 		}
 	},
 	"laser": {
@@ -482,8 +532,7 @@
 			},
 			"mammut_arm_rechts": {
 				"rotate": [
-					{ "time": 0, "angle": 0 },
-					{ "time": 1.6666, "angle": -2.77 },
+					{ "time": 0, "angle": 0, "curve": "stepped" },
 					{ "time": 2.6666, "angle": 0 }
 				],
 				"translate": [
