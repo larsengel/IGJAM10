@@ -1,0 +1,83 @@
+
+dino.png
+size: 4096,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Ebene 0
+  rotate: false
+  xy: 2292, 554
+  size: 180, 156
+  orig: 182, 158
+  offset: 1, 1
+  index: -1
+dino_arm_links
+  rotate: true
+  xy: 1650, 179
+  size: 104, 268
+  orig: 106, 270
+  offset: 1, 1
+  index: -1
+dino_arm_rechts
+  rotate: true
+  xy: 0, 0
+  size: 157, 420
+  orig: 159, 422
+  offset: 1, 1
+  index: -1
+dino_bein_links
+  rotate: false
+  xy: 1650, 283
+  size: 310, 658
+  orig: 312, 660
+  offset: 1, 1
+  index: -1
+dino_bein_rechts
+  rotate: false
+  xy: 1355, 166
+  size: 295, 775
+  orig: 297, 777
+  offset: 1, 1
+  index: -1
+dino_koerper
+  rotate: true
+  xy: 0, 157
+  size: 784, 1355
+  orig: 786, 1357
+  offset: 1, 1
+  index: -1
+dino_kopf
+  rotate: false
+  xy: 1960, 411
+  size: 332, 530
+  orig: 334, 532
+  offset: 1, 1
+  index: -1
+dino_pupille_links
+  rotate: false
+  xy: 1960, 394
+  size: 7, 17
+  orig: 9, 19
+  offset: 1, 1
+  index: -1
+dino_pupille_rechts
+  rotate: true
+  xy: 1355, 159
+  size: 7, 25
+  orig: 9, 27
+  offset: 1, 1
+  index: -1
+dino_tail2
+  rotate: false
+  xy: 2292, 710
+  size: 282, 231
+  orig: 284, 233
+  offset: 1, 1
+  index: -1
+dino_tail3
+  rotate: false
+  xy: 420, 23
+  size: 221, 134
+  orig: 223, 136
+  offset: 1, 1
+  index: -1

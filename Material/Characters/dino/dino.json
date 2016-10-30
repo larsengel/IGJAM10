@@ -1,0 +1,36 @@
+{"skeleton":{"images":"images/"},
+"bones":[{"name":"root"}],
+"slots":[
+	{"name":"Ebene 0","bone":"root","attachment":"Ebene 0"},
+	{"name":"dino_tail4","bone":"root","attachment":"dino_tail4"},
+	{"name":"dino_arm_links","bone":"root","attachment":"dino_arm_links"},
+	{"name":"dino_arm_rechts","bone":"root","attachment":"dino_arm_rechts"},
+	{"name":"dino_bein_links","bone":"root","attachment":"dino_bein_links"},
+	{"name":"dino_bein_rechts","bone":"root","attachment":"dino_bein_rechts"},
+	{"name":"dino_full","bone":"root","attachment":"dino_full"},
+	{"name":"dino_koerper","bone":"root","attachment":"dino_koerper"},
+	{"name":"dino_kopf","bone":"root","attachment":"dino_kopf"},
+	{"name":"dino_pupille_links","bone":"root","attachment":"dino_pupille_links"},
+	{"name":"dino_pupille_rechts","bone":"root","attachment":"dino_pupille_rechts"},
+	{"name":"dino_tail2","bone":"root","attachment":"dino_tail2"},
+	{"name":"dino_tail3","bone":"root","attachment":"dino_tail3"}
+],
+"skins":{
+	"default":{
+		"dino_tail3":{"dino_tail3":{"x":1176.5,"y":349,"width":223,"height":136}},
+		"dino_tail2":{"dino_tail2":{"x":1004,"y":397.5,"width":284,"height":233}},
+		"dino_pupille_rechts":{"dino_pupille_rechts":{"x":520.5,"y":1580.5,"width":9,"height":27}},
+		"dino_pupille_links":{"dino_pupille_links":{"x":362.5,"y":1595.5,"width":9,"height":19}},
+		"dino_kopf":{"dino_kopf":{"x":456,"y":1545,"width":334,"height":532}},
+		"dino_koerper":{"dino_koerper":{"x":623,"y":1044.5,"width":786,"height":1357}},
+		"dino_full":{"dino_full":{"x":809,"y":955.5,"width":1164,"height":1711}},
+		"dino_bein_rechts":{"dino_bein_rechts":{"x":753.5,"y":488.5,"width":297,"height":777}},
+		"dino_bein_links":{"dino_bein_links":{"x":478,"y":563,"width":312,"height":660}},
+		"dino_arm_rechts":{"dino_arm_rechts":{"x":572.5,"y":1043,"width":159,"height":422}},
+		"dino_arm_links":{"dino_arm_links":{"x":282,"y":972,"width":106,"height":270}},
+		"dino_tail4":{"dino_tail4":{"x":1300,"y":380,"width":182,"height":158}},
+		"Ebene 0":{"Ebene 0":{"x":1300,"y":380,"width":182,"height":158}}
+	}
+},
+"animations":{"animation":{}}
+}
