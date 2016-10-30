@@ -6,7 +6,7 @@ using Spine.Unity;
 
 public class SpeechListener : MonoBehaviour {
 
-    void GetSpeech(AC.Char speaking_char, string txt, int lineID) {
+    /*void GetSpeech(AC.Char speaking_char, string txt, int lineID) {
         Debug.Log(speaking_char.gameObject.GetComponentInChildren<SkeletonAnimation>().AnimationName);
         speaking_char.gameObject.GetComponentInChildren<SkeletonAnimation>().AnimationName = "talk";
     } 
@@ -24,7 +24,7 @@ public class SpeechListener : MonoBehaviour {
     void Start () {
         EventManager.OnStartSpeech += GetSpeech;
         EventManager.OnEndSpeechScroll += EndSpeech;
-    }
+    }*/
 
     // Update is called once per frame
     void Update () {
