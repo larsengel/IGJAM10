@@ -1,0 +1,2105 @@
+{
+"skeleton": { "hash": "CEPglTUplL/dzqBrystL3Vg4mGE", "spine": "3.4.02", "width": 1920, "height": 1533.85, "images": "" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "arm", "parent": "root", "length": 264.6, "rotation": -57.09, "x": 36.35, "y": 1476.01, "scaleX": 2.761 },
+	{
+		"name": "portal_zukunft_untester_weisser_kreis",
+		"parent": "root",
+		"length": 1173.64,
+		"rotation": 36.24,
+		"x": 20.14,
+		"y": 536.17,
+		"scaleX": 0.856,
+		"scaleY": 0.856
+	},
+	{ "name": "bone", "parent": "portal_zukunft_untester_weisser_kreis", "length": 508.85, "rotation": 0.75, "x": 535.19, "y": 34 },
+	{ "name": "hand_prototyp", "parent": "arm", "length": 233.79, "rotation": -0.57, "x": 240.77, "y": -3.18, "scaleX": 0.278 },
+	{ "name": "obj_toast_jelly", "parent": "root", "length": 205.82, "rotation": 90, "x": 607.44, "y": 74.75 },
+	{
+		"name": "portal_sterne_unten_v2",
+		"parent": "portal_zukunft_untester_weisser_kreis",
+		"length": 214.11,
+		"rotation": 0.12,
+		"x": 54.24,
+		"y": -63.02
+	},
+	{
+		"name": "portal_zukunft_innen_weisser_kreis",
+		"parent": "portal_zukunft_untester_weisser_kreis",
+		"length": 331.1,
+		"rotation": -4.11,
+		"x": 548.02,
+		"y": 20.98
+	},
+	{
+		"name": "portal_zukunft_sterne_aussen",
+		"parent": "portal_zukunft_untester_weisser_kreis",
+		"length": 199.85,
+		"rotation": -0.49,
+		"x": 558.07,
+		"y": 36.16
+	},
+	{
+		"name": "portal_zukunft_untester_weisser_kreis2",
+		"parent": "portal_zukunft_untester_weisser_kreis",
+		"length": 191.44,
+		"rotation": -20.34,
+		"x": 51.45,
+		"y": -34.83
+	}
+],
+"slots": [
+	{ "name": "portal_basis", "bone": "portal_zukunft_untester_weisser_kreis", "attachment": "portal_basis" },
+	{ "name": "portal_sterne_unten", "bone": "portal_zukunft_untester_weisser_kreis", "attachment": "portal_sterne_unten" },
+	{ "name": "portal_sterne_unten_v2", "bone": "portal_sterne_unten_v2", "attachment": "portal_sterne_unten_v2" },
+	{
+		"name": "portal_zukunft_innen_weisser_kreis",
+		"bone": "portal_zukunft_innen_weisser_kreis",
+		"attachment": "portal_zukunft_innen_weisser_kreis"
+	},
+	{
+		"name": "portal_zukunft_sterne_innen",
+		"bone": "portal_zukunft_untester_weisser_kreis",
+		"attachment": "portal_zukunft_sterne_innen"
+	},
+	{ "name": "portal_zukunft_sterne_aussen", "bone": "portal_zukunft_sterne_aussen", "attachment": "portal_zukunft_sterne_aussen" },
+	{
+		"name": "portal_zukunft_unten_weisseR_kreis",
+		"bone": "portal_zukunft_untester_weisser_kreis",
+		"attachment": "portal_zukunft_unten_weisseR_kreis"
+	},
+	{
+		"name": "portal_zukunft_untester_weisser_kreis",
+		"bone": "portal_zukunft_untester_weisser_kreis2",
+		"attachment": "portal_zukunft_untester_weisser_kreis"
+	},
+	{ "name": "portal_zukunft_weisser_kreis_aussen", "bone": "bone", "attachment": "portal_zukunft_weisser_kreis_aussen" },
+	{ "name": "arm", "bone": "arm", "attachment": "arm" },
+	{ "name": "hand_prototyp", "bone": "hand_prototyp", "attachment": "hand_prototyp" },
+	{ "name": "kitchen_tablett", "bone": "obj_toast_jelly", "attachment": "kitchen_tablett" },
+	{ "name": "obj_beer_milk", "bone": "obj_toast_jelly", "attachment": "obj_beer_milk" },
+	{ "name": "ob_scrambledeggs", "bone": "obj_toast_jelly", "attachment": "ob_scrambledeggs" },
+	{ "name": "obj_toast_jelly", "bone": "obj_toast_jelly", "attachment": "obj_toast_jelly" },
+	{ "name": "portal_layover", "bone": "portal_zukunft_untester_weisser_kreis", "attachment": "portal_layover" }
+],
+"skins": {
+	"default": {
+		"arm": {
+			"arm": { "x": 107.7, "y": 0.57, "scaleX": 0.311, "scaleY": 0.302, "rotation": -1.33, "width": 806, "height": 251 }
+		},
+		"hand_prototyp": {
+			"hand_prototyp": { "x": 89.35, "y": 11.12, "scaleX": 0.302, "scaleY": 0.302, "rotation": 179.95, "width": 843, "height": 486 }
+		},
+		"kitchen_tablett": {
+			"kitchen_tablett": { "x": 52.75, "y": 2.2, "rotation": -90, "width": 368, "height": 161 }
+		},
+		"ob_scrambledeggs": {
+			"ob_scrambledeggs": { "x": 123.16, "y": 31.4, "scaleX": 0.313, "scaleY": 0.313, "rotation": -90, "width": 900, "height": 900 }
+		},
+		"obj_beer_milk": {
+			"obj_beer_milk": { "x": 196.96, "y": -96.2, "scaleX": 0.289, "scaleY": 0.289, "rotation": -90, "width": 870, "height": 870 }
+		},
+		"obj_toast_jelly": {
+			"obj_toast_jelly": { "x": 37.49, "y": 80.43, "scaleX": 0.178, "scaleY": 0.178, "rotation": -172.48, "width": 755, "height": 755 }
+		},
+		"portal_basis": {
+			"portal_basis": { "x": 415.64, "y": 36.37, "rotation": -101.71, "width": 900, "height": 900 }
+		},
+		"portal_layover": {
+			"portal_layover": { "x": 553.71, "y": 262.99, "rotation": -101.71, "width": 392, "height": 496 }
+		},
+		"portal_sterne_unten": {
+			"portal_sterne_unten": { "x": 115.25, "y": 52.39, "rotation": -101.71, "width": 162, "height": 216 }
+		},
+		"portal_sterne_unten_v2": {
+			"portal_sterne_unten_v2": { "x": 79.68, "y": 13.86, "rotation": -101.61, "width": 193, "height": 251 }
+		},
+		"portal_zukunft_innen_weisser_kreis": {
+			"portal_zukunft_innen_weisser_kreis": { "x": -6.84, "y": 33.05, "rotation": -101.48, "width": 502, "height": 366 }
+		},
+		"portal_zukunft_sterne_aussen": {
+			"portal_zukunft_sterne_aussen": { "x": -21.4, "y": -9.55, "rotation": -101.21, "width": 826, "height": 618 }
+		},
+		"portal_zukunft_sterne_innen": {
+			"portal_zukunft_sterne_innen": { "x": 532.42, "y": 34.76, "rotation": -101.71, "width": 502, "height": 366 }
+		},
+		"portal_zukunft_unten_weisseR_kreis": {
+			"portal_zukunft_unten_weisseR_kreis": { "x": 409.96, "y": 42.11, "rotation": -101.71, "width": 364, "height": 220 }
+		},
+		"portal_zukunft_untester_weisser_kreis": {
+			"portal_zukunft_untester_weisser_kreis": { "x": 388.96, "y": 165.01, "rotation": -81.13, "width": 900, "height": 900 }
+		},
+		"portal_zukunft_weisser_kreis_aussen": {
+			"portal_zukunft_weisser_kreis_aussen": { "x": 5.02, "y": -0.92, "rotation": -102.46, "width": 720, "height": 490 }
+		}
+	}
+},
+"animations": {
+	"created": {
+		"slots": {
+			"portal_basis": {
+				"color": [
+					{ "time": 0, "color": "ff876732" },
+					{ "time": 0.4666, "color": "fff33ca4" },
+					{ "time": 0.8333, "color": "ff35a2ff" },
+					{ "time": 1.4, "color": "29ff2cff" },
+					{ "time": 1.9666, "color": "684cffff" },
+					{ "time": 2.5, "color": "ff32d6ff" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "portal_basis" }
+				]
+			},
+			"portal_layover": {
+				"color": [
+					{ "time": 0, "color": "ffffff32" },
+					{ "time": 1.2333, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "portal_layover" }
+				]
+			},
+			"portal_zukunft_innen_weisser_kreis": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" },
+					{ "time": 0.9333, "color": "ffffff45" },
+					{ "time": 3, "color": "ffffffff" }
+				]
+			},
+			"portal_zukunft_untester_weisser_kreis": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" },
+					{ "time": 1.3333, "color": "dcded600" },
+					{ "time": 3, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"portal_zukunft_untester_weisser_kreis": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 3, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{
+						"time": 0,
+						"x": 0.204,
+						"y": 0.204,
+						"curve": [ 0.255, 0, 0.619, 0.46 ]
+					},
+					{
+						"time": 0.9,
+						"x": 1.595,
+						"y": 1.062,
+						"curve": [ 0.366, 0.46, 0.753, 1 ]
+					},
+					{
+						"time": 2.1,
+						"x": 1.019,
+						"y": 2.319,
+						"curve": [ 0.37, 0.47, 0.752, 1 ]
+					},
+					{ "time": 3, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.265, 0, 0.617, 0.42 ]
+					},
+					{
+						"time": 0.4333,
+						"x": -17.82,
+						"y": -36.45,
+						"curve": [ 0.34, 0.35, 0.73, 0.88 ]
+					},
+					{
+						"time": 1.2333,
+						"x": 6.13,
+						"y": 3.63,
+						"curve": [ 0.354, 0.64, 0.688, 1 ]
+					},
+					{
+						"time": 2.2333,
+						"x": -3.26,
+						"y": -2.67,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 3, "x": 0, "y": 0 }
+				]
+			},
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 3, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 3, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3, "x": 0, "y": 0 }
+				]
+			},
+			"portal_zukunft_innen_weisser_kreis": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 0,
+						"curve": [ 0.245, 0, 0.634, 0.54 ]
+					},
+					{
+						"time": 0.6,
+						"angle": -1.6,
+						"curve": [ 0.38, 0.53, 0.744, 1 ]
+					},
+					{
+						"time": 1.0333,
+						"angle": -20.04,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 2.0333,
+						"angle": 8.02,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 2.9333,
+						"angle": 4.1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 3, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 1.2,
+						"x": 1.197,
+						"y": 1.197,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 3, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3, "x": 0, "y": 0 }
+				]
+			},
+			"portal_zukunft_sterne_aussen": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 0,
+						"curve": [ 0.284, 0, 0.625, 0.38 ]
+					},
+					{
+						"time": 0.6,
+						"angle": 0.1,
+						"curve": [ 0.32, 0.28, 0.757, 1 ]
+					},
+					{ "time": 3, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.8666,
+						"x": 1.039,
+						"y": 1.039,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 1.8666,
+						"x": 0.818,
+						"y": 0.897,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 3, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3, "x": 0, "y": 0 }
+				]
+			},
+			"portal_zukunft_untester_weisser_kreis2": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 3, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 3, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3, "x": 0, "y": 0 }
+				]
+			},
+			"portal_sterne_unten_v2": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 3, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 3, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3, "x": 0, "y": 0 }
+				]
+			},
+			"bone": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 0,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 1.2,
+						"angle": -8.67,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 3, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 3, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3, "x": 0, "y": 0 }
+				]
+			}
+		}
+	},
+	"enter": {
+		"slots": {
+			"portal_zukunft_innen_weisser_kreis": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" },
+					{ "time": 0.9333, "color": "ffffff45" },
+					{ "time": 3, "color": "ffffffff" }
+				]
+			},
+			"portal_zukunft_untester_weisser_kreis": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" },
+					{ "time": 1.3333, "color": "dcded600" },
+					{ "time": 3, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"portal_zukunft_untester_weisser_kreis": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 3, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 1.3333,
+						"x": 1.087,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 3, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 1.3333,
+						"x": -3.26,
+						"y": -2.67,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 3, "x": 0, "y": 0 }
+				]
+			},
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 3, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 3, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3, "x": 0, "y": 0 }
+				]
+			},
+			"portal_zukunft_innen_weisser_kreis": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 0,
+						"curve": [ 0.245, 0, 0.634, 0.54 ]
+					},
+					{
+						"time": 0.6,
+						"angle": -1.6,
+						"curve": [ 0.38, 0.53, 0.744, 1 ]
+					},
+					{
+						"time": 1.0333,
+						"angle": -20.04,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 2.0333,
+						"angle": 8.02,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 2.9333,
+						"angle": 4.1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 3, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 1.2,
+						"x": 1.197,
+						"y": 1.197,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 3, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3, "x": 0, "y": 0 }
+				]
+			},
+			"portal_zukunft_sterne_aussen": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 0,
+						"curve": [ 0.284, 0, 0.625, 0.38 ]
+					},
+					{
+						"time": 0.6,
+						"angle": 0.1,
+						"curve": [ 0.32, 0.28, 0.757, 1 ]
+					},
+					{ "time": 3, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.8666,
+						"x": 1.039,
+						"y": 1.039,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 1.8666,
+						"x": 0.818,
+						"y": 0.897,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 3, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3, "x": 0, "y": 0 }
+				]
+			},
+			"portal_zukunft_untester_weisser_kreis2": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 3, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 3, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3, "x": 0, "y": 0 }
+				]
+			},
+			"portal_sterne_unten_v2": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 3, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 3, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3, "x": 0, "y": 0 }
+				]
+			},
+			"bone": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 0,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 1.2,
+						"angle": -8.67,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 3, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 3, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3, "x": 0, "y": 0 }
+				]
+			}
+		}
+	},
+	"fututre": {
+		"slots": {
+			"portal_basis": {
+				"color": [
+					{ "time": 0, "color": "4f00ffff" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "portal_basis" }
+				]
+			},
+			"portal_layover": {
+				"color": [
+					{ "time": 0, "color": "001effff" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "portal_layover" }
+				]
+			},
+			"portal_zukunft_innen_weisser_kreis": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" },
+					{ "time": 0.9333, "color": "ffffff45" },
+					{ "time": 3, "color": "ffffffff" }
+				]
+			},
+			"portal_zukunft_untester_weisser_kreis": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" },
+					{ "time": 1.3333, "color": "dcded600" },
+					{ "time": 3, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"portal_zukunft_untester_weisser_kreis": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 3, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 1.3333,
+						"x": 1.087,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 3, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 1.3333,
+						"x": -3.26,
+						"y": -2.67,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 3, "x": 0, "y": 0 }
+				]
+			},
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 3, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 3, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3, "x": 0, "y": 0 }
+				]
+			},
+			"portal_zukunft_innen_weisser_kreis": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 0,
+						"curve": [ 0.245, 0, 0.634, 0.54 ]
+					},
+					{
+						"time": 0.6,
+						"angle": -1.6,
+						"curve": [ 0.38, 0.53, 0.744, 1 ]
+					},
+					{
+						"time": 1.0333,
+						"angle": -20.04,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 2.0333,
+						"angle": 8.02,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 2.9333,
+						"angle": 4.1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 3, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 1.2,
+						"x": 1.197,
+						"y": 1.197,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 3, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3, "x": 0, "y": 0 }
+				]
+			},
+			"portal_zukunft_sterne_aussen": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 0,
+						"curve": [ 0.284, 0, 0.625, 0.38 ]
+					},
+					{
+						"time": 0.6,
+						"angle": 0.1,
+						"curve": [ 0.32, 0.28, 0.757, 1 ]
+					},
+					{ "time": 3, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.8666,
+						"x": 1.039,
+						"y": 1.039,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 1.8666,
+						"x": 0.818,
+						"y": 0.897,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 3, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3, "x": 0, "y": 0 }
+				]
+			},
+			"portal_zukunft_untester_weisser_kreis2": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 3, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 3, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3, "x": 0, "y": 0 }
+				]
+			},
+			"portal_sterne_unten_v2": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 3, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 3, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3, "x": 0, "y": 0 }
+				]
+			},
+			"bone": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 0,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 1.2,
+						"angle": -8.67,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 3, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 3, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3, "x": 0, "y": 0 }
+				]
+			}
+		}
+	},
+	"idle": {
+		"slots": {
+			"portal_zukunft_innen_weisser_kreis": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" },
+					{ "time": 0.9333, "color": "ffffff45" },
+					{ "time": 3, "color": "ffffffff" }
+				]
+			},
+			"portal_zukunft_untester_weisser_kreis": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" },
+					{ "time": 1.3333, "color": "dcded600" },
+					{ "time": 3, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"portal_zukunft_untester_weisser_kreis": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 3, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 1.3333,
+						"x": 1.087,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 3, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 1.3333,
+						"x": -3.26,
+						"y": -2.67,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 3, "x": 0, "y": 0 }
+				]
+			},
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 3, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 3, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3, "x": 0, "y": 0 }
+				]
+			},
+			"portal_zukunft_innen_weisser_kreis": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 0,
+						"curve": [ 0.245, 0, 0.634, 0.54 ]
+					},
+					{
+						"time": 0.6,
+						"angle": -1.6,
+						"curve": [ 0.38, 0.53, 0.744, 1 ]
+					},
+					{
+						"time": 1.0333,
+						"angle": -20.04,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 2.0333,
+						"angle": 8.02,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 2.9333,
+						"angle": 4.1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 3, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 1.2,
+						"x": 1.197,
+						"y": 1.197,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 3, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3, "x": 0, "y": 0 }
+				]
+			},
+			"portal_zukunft_sterne_aussen": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 0,
+						"curve": [ 0.284, 0, 0.625, 0.38 ]
+					},
+					{
+						"time": 0.6,
+						"angle": 0.1,
+						"curve": [ 0.32, 0.28, 0.757, 1 ]
+					},
+					{ "time": 3, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.8666,
+						"x": 1.039,
+						"y": 1.039,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 1.8666,
+						"x": 0.818,
+						"y": 0.897,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 3, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3, "x": 0, "y": 0 }
+				]
+			},
+			"portal_zukunft_untester_weisser_kreis2": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 3, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 3, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3, "x": 0, "y": 0 }
+				]
+			},
+			"portal_sterne_unten_v2": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 3, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 3, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3, "x": 0, "y": 0 }
+				]
+			},
+			"bone": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 0,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 1.2,
+						"angle": -8.67,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 3, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 3, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3, "x": 0, "y": 0 }
+				]
+			}
+		}
+	},
+	"idleentered": {
+		"slots": {
+			"portal_zukunft_innen_weisser_kreis": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" },
+					{ "time": 0.9333, "color": "ffffff45" },
+					{ "time": 3, "color": "ffffffff" }
+				]
+			},
+			"portal_zukunft_untester_weisser_kreis": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" },
+					{ "time": 1.3333, "color": "dcded600" },
+					{ "time": 3, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"portal_zukunft_untester_weisser_kreis": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 3, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 1.3333,
+						"x": 1.087,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 3, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 1.3333,
+						"x": -3.26,
+						"y": -2.67,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 3, "x": 0, "y": 0 }
+				]
+			},
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 3, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 3, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3, "x": 0, "y": 0 }
+				]
+			},
+			"portal_zukunft_innen_weisser_kreis": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 0,
+						"curve": [ 0.245, 0, 0.634, 0.54 ]
+					},
+					{
+						"time": 0.6,
+						"angle": -1.6,
+						"curve": [ 0.38, 0.53, 0.744, 1 ]
+					},
+					{
+						"time": 1.0333,
+						"angle": -20.04,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 2.0333,
+						"angle": 8.02,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 2.9333,
+						"angle": 4.1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 3, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 1.2,
+						"x": 1.197,
+						"y": 1.197,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 3, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3, "x": 0, "y": 0 }
+				]
+			},
+			"portal_zukunft_sterne_aussen": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 0,
+						"curve": [ 0.284, 0, 0.625, 0.38 ]
+					},
+					{
+						"time": 0.6,
+						"angle": 0.1,
+						"curve": [ 0.32, 0.28, 0.757, 1 ]
+					},
+					{ "time": 3, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.8666,
+						"x": 1.039,
+						"y": 1.039,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 1.8666,
+						"x": 0.818,
+						"y": 0.897,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 3, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3, "x": 0, "y": 0 }
+				]
+			},
+			"portal_zukunft_untester_weisser_kreis2": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 3, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 3, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3, "x": 0, "y": 0 }
+				]
+			},
+			"portal_sterne_unten_v2": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 3, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 3, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3, "x": 0, "y": 0 }
+				]
+			},
+			"bone": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 0,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 1.2,
+						"angle": -8.67,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 3, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 3, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3, "x": 0, "y": 0 }
+				]
+			}
+		}
+	},
+	"outro": {
+		"slots": {
+			"portal_basis": {
+				"color": [
+					{ "time": 2, "color": "ff876732" },
+					{ "time": 2.4666, "color": "fff33ca4" },
+					{ "time": 2.8333, "color": "ff35a2ff" },
+					{ "time": 3.4, "color": "29ff2cff" },
+					{ "time": 3.9666, "color": "684cffff" },
+					{ "time": 4.5, "color": "ff32d6ff", "curve": "stepped" },
+					{ "time": 11.2749, "color": "ff32d6ff" },
+					{ "time": 11.4476, "color": "684cffff" },
+					{ "time": 11.6333, "color": "29ff2cff" },
+					{ "time": 11.8063, "color": "ff35a2ff" },
+					{ "time": 11.9259, "color": "fff33ca4" },
+					{ "time": 12.0853, "color": "ff876732" }
+				],
+				"attachment": [
+					{ "time": 2, "name": "portal_basis" },
+					{ "time": 12.0853, "name": "portal_basis" }
+				]
+			},
+			"portal_layover": {
+				"color": [
+					{ "time": 2, "color": "ffffff32" },
+					{ "time": 3.2333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 11.6867, "color": "ffffffff" },
+					{ "time": 12.0853, "color": "ffffff32" }
+				],
+				"attachment": [
+					{ "time": 2, "name": "portal_layover" },
+					{ "time": 12.0853, "name": "portal_layover" }
+				]
+			}
+		},
+		"bones": {
+			"portal_zukunft_untester_weisser_kreis": {
+				"rotate": [
+					{ "time": 2, "angle": 0, "curve": "stepped" },
+					{ "time": 5, "angle": 0, "curve": "stepped" },
+					{ "time": 5.0333, "angle": 0, "curve": "stepped" },
+					{ "time": 8.0333, "angle": 0, "curve": "stepped" },
+					{ "time": 8.0666, "angle": 0, "curve": "stepped" },
+					{ "time": 11.0666, "angle": 0, "curve": "stepped" },
+					{ "time": 11.1, "angle": 0, "curve": "stepped" },
+					{ "time": 12.0853, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 2, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 5, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 5.0333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 8.0333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 8.0666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 11.0666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 11.1, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 12.0853, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.9666, "x": 0, "y": 0 },
+					{
+						"time": 2,
+						"x": 0.204,
+						"y": 0.204,
+						"curve": [ 0.255, 0, 0.619, 0.46 ]
+					},
+					{
+						"time": 2.9,
+						"x": 1.595,
+						"y": 1.062,
+						"curve": [ 0.366, 0.46, 0.753, 1 ]
+					},
+					{
+						"time": 4.1,
+						"x": 1.019,
+						"y": 2.319,
+						"curve": [ 0.37, 0.47, 0.752, 1 ]
+					},
+					{ "time": 5, "x": 1, "y": 1, "curve": "stepped" },
+					{
+						"time": 5.0333,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 6.3666,
+						"x": 1.087,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 8.0333, "x": 1, "y": 1, "curve": "stepped" },
+					{
+						"time": 8.0666,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 9.4,
+						"x": 1.087,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 11.0666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 11.1, "x": 1, "y": 1 },
+					{
+						"time": 11.4077,
+						"x": 1.019,
+						"y": 2.319,
+						"curve": [ 0.37, 0.47, 0.752, 1 ]
+					},
+					{
+						"time": 11.793,
+						"x": 1.595,
+						"y": 1.062,
+						"curve": [ 0.366, 0.46, 0.753, 1 ]
+					},
+					{ "time": 12.0853, "x": 0.204, "y": 0.204 }
+				],
+				"shear": [
+					{
+						"time": 2,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.265, 0, 0.617, 0.42 ]
+					},
+					{
+						"time": 2.4333,
+						"x": -17.82,
+						"y": -36.45,
+						"curve": [ 0.34, 0.35, 0.73, 0.88 ]
+					},
+					{
+						"time": 3.2333,
+						"x": 6.13,
+						"y": 3.63,
+						"curve": [ 0.354, 0.64, 0.688, 1 ]
+					},
+					{
+						"time": 4.2333,
+						"x": -3.26,
+						"y": -2.67,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 5, "x": 0, "y": 0, "curve": "stepped" },
+					{
+						"time": 5.0333,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 6.3666,
+						"x": -3.26,
+						"y": -2.67,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 8.0333, "x": 0, "y": 0, "curve": "stepped" },
+					{
+						"time": 8.0666,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 9.4,
+						"x": -3.26,
+						"y": -2.67,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 11.0666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 11.1, "x": 0, "y": 0 },
+					{
+						"time": 11.3546,
+						"x": -3.26,
+						"y": -2.67,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 11.6867,
+						"x": 6.13,
+						"y": 3.63,
+						"curve": [ 0.354, 0.64, 0.688, 1 ]
+					},
+					{
+						"time": 11.9391,
+						"x": -17.82,
+						"y": -36.45,
+						"curve": [ 0.34, 0.35, 0.73, 0.88 ]
+					},
+					{ "time": 12.0853, "x": 0, "y": 0 }
+				]
+			},
+			"arm": {
+				"rotate": [
+					{ "time": 4, "angle": 0 },
+					{ "time": 7, "angle": -0.43 },
+					{ "time": 7.7666, "angle": 2.94 },
+					{ "time": 8.0666, "angle": -13.78 },
+					{ "time": 8.4666, "angle": -2.37 }
+				],
+				"translate": [
+					{ "time": 0, "x": -279.29, "y": 403.2, "curve": "stepped" },
+					{ "time": 4.0333, "x": -279.29, "y": 403.2, "curve": "stepped" },
+					{ "time": 5.7333, "x": -279.29, "y": 403.2 },
+					{ "time": 6.2666, "x": 134.4, "y": -182.69 },
+					{ "time": 7.9666, "x": 247.79, "y": -575.39 },
+					{ "time": 9.3666, "x": -350.69, "y": 501.9 }
+				]
+			},
+			"obj_toast_jelly": {
+				"translate": [
+					{ "time": 7.3333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 8, "x": 0, "y": 0 },
+					{ "time": 8.6333, "x": -173.39, "y": 597.56 },
+					{ "time": 10.0333, "x": -499.32, "y": 1179.22 }
+				]
+			},
+			"hand_prototyp": {
+				"rotate": [
+					{ "time": 4.4666, "angle": 0 },
+					{ "time": 7.1333, "angle": 0.03 }
+				]
+			}
+		}
+	},
+	"past": {
+		"slots": {
+			"portal_basis": {
+				"color": [
+					{ "time": 0, "color": "ff1100ff" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "portal_basis" }
+				]
+			},
+			"portal_layover": {
+				"color": [
+					{ "time": 0, "color": "ff0c00ff" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "portal_layover" }
+				]
+			},
+			"portal_zukunft_innen_weisser_kreis": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" },
+					{ "time": 0.9333, "color": "ffffff45" },
+					{ "time": 3, "color": "ffffffff" }
+				]
+			},
+			"portal_zukunft_untester_weisser_kreis": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" },
+					{ "time": 1.3333, "color": "dcded600" },
+					{ "time": 3, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"portal_zukunft_untester_weisser_kreis": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 3, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 1.3333,
+						"x": 1.087,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 3, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 1.3333,
+						"x": -3.26,
+						"y": -2.67,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 3, "x": 0, "y": 0 }
+				]
+			},
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 3, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 3, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3, "x": 0, "y": 0 }
+				]
+			},
+			"portal_zukunft_innen_weisser_kreis": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 0,
+						"curve": [ 0.245, 0, 0.634, 0.54 ]
+					},
+					{
+						"time": 0.6,
+						"angle": -1.6,
+						"curve": [ 0.38, 0.53, 0.744, 1 ]
+					},
+					{
+						"time": 1.0333,
+						"angle": -20.04,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 2.0333,
+						"angle": 8.02,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 2.9333,
+						"angle": 4.1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 3, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 1.2,
+						"x": 1.197,
+						"y": 1.197,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 3, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3, "x": 0, "y": 0 }
+				]
+			},
+			"portal_zukunft_sterne_aussen": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 0,
+						"curve": [ 0.284, 0, 0.625, 0.38 ]
+					},
+					{
+						"time": 0.6,
+						"angle": 0.1,
+						"curve": [ 0.32, 0.28, 0.757, 1 ]
+					},
+					{ "time": 3, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.8666,
+						"x": 1.039,
+						"y": 1.039,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 1.8666,
+						"x": 0.818,
+						"y": 0.897,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 3, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3, "x": 0, "y": 0 }
+				]
+			},
+			"portal_zukunft_untester_weisser_kreis2": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 3, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 3, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3, "x": 0, "y": 0 }
+				]
+			},
+			"portal_sterne_unten_v2": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 3, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 3, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3, "x": 0, "y": 0 }
+				]
+			},
+			"bone": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 0,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 1.2,
+						"angle": -8.67,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 3, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 3, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3, "x": 0, "y": 0 }
+				]
+			}
+		}
+	},
+	"talk": {
+		"slots": {
+			"portal_zukunft_innen_weisser_kreis": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" },
+					{ "time": 0.9333, "color": "ffffff45" },
+					{ "time": 3, "color": "ffffffff" }
+				]
+			},
+			"portal_zukunft_untester_weisser_kreis": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" },
+					{ "time": 1.3333, "color": "dcded600" },
+					{ "time": 3, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"portal_zukunft_untester_weisser_kreis": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 3, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 1.3333,
+						"x": 1.087,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 3, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 1.3333,
+						"x": -3.26,
+						"y": -2.67,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 3, "x": 0, "y": 0 }
+				]
+			},
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 3, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 3, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3, "x": 0, "y": 0 }
+				]
+			},
+			"portal_zukunft_innen_weisser_kreis": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 0,
+						"curve": [ 0.245, 0, 0.634, 0.54 ]
+					},
+					{
+						"time": 0.6,
+						"angle": -1.6,
+						"curve": [ 0.38, 0.53, 0.744, 1 ]
+					},
+					{
+						"time": 1.0333,
+						"angle": -20.04,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 2.0333,
+						"angle": 8.02,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 2.9333,
+						"angle": 4.1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 3, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 1.2,
+						"x": 1.197,
+						"y": 1.197,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 3, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3, "x": 0, "y": 0 }
+				]
+			},
+			"portal_zukunft_sterne_aussen": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 0,
+						"curve": [ 0.284, 0, 0.625, 0.38 ]
+					},
+					{
+						"time": 0.6,
+						"angle": 0.1,
+						"curve": [ 0.32, 0.28, 0.757, 1 ]
+					},
+					{ "time": 3, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.8666,
+						"x": 1.039,
+						"y": 1.039,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 1.8666,
+						"x": 0.818,
+						"y": 0.897,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 3, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3, "x": 0, "y": 0 }
+				]
+			},
+			"portal_zukunft_untester_weisser_kreis2": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 3, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 3, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3, "x": 0, "y": 0 }
+				]
+			},
+			"portal_sterne_unten_v2": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 3, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 3, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3, "x": 0, "y": 0 }
+				]
+			},
+			"bone": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 0,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 1.2,
+						"angle": -8.67,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 3, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 3, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3, "x": 0, "y": 0 }
+				]
+			}
+		}
+	}
+}
+}
