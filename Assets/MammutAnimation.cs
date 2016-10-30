@@ -8,11 +8,15 @@ public class MammutAnimation : MonoBehaviour {
         gameObject.GetComponent<SkeletonAnimation>().skeleton.SetSkin("laser");
     }
 
+    void SetDefault() {
+        gameObject.GetComponent<SkeletonAnimation>().skeleton.SetSkin("normal");
+    }
+
     void SetLaserPirat() {
         gameObject.GetComponent<SkeletonAnimation>().skeleton.SetSkin("pirat");
     }
     void SetLaserPiratEuter() {
-        gameObject.GetComponent<SkeletonAnimation>().skeleton.SetSkin("euterpirat");
+        gameObject.GetComponent<SkeletonAnimation>().skeleton.SetSkin("euter");
     }
 
     // Use this for initialization
