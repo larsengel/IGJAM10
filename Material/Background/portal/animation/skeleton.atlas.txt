@@ -1,0 +1,153 @@
+
+skeleton.png
+size: 4096,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+_0005_chara-shirt
+  rotate: true
+  xy: 2381, 457
+  size: 139, 233
+  orig: 139, 233
+  offset: 0, 0
+  index: -1
+chara-arm-rechts-oben
+  rotate: false
+  xy: 3999, 874
+  size: 68, 137
+  orig: 70, 139
+  offset: 1, 1
+  index: -1
+chara-arm-rechts-unten
+  rotate: false
+  xy: 1613, 299
+  size: 25, 125
+  orig: 27, 127
+  offset: 1, 1
+  index: -1
+chara-body
+  rotate: true
+  xy: 3222, 469
+  size: 127, 199
+  orig: 127, 199
+  offset: 0, 0
+  index: -1
+chara-face
+  rotate: false
+  xy: 364, 0
+  size: 206, 123
+  orig: 206, 123
+  offset: 0, 0
+  index: -1
+chara-talk_03
+  rotate: false
+  xy: 570, 0
+  size: 206, 123
+  orig: 206, 123
+  offset: 0, 0
+  index: -1
+chara_blink_face_04
+  rotate: false
+  xy: 3016, 473
+  size: 206, 123
+  orig: 206, 123
+  offset: 0, 0
+  index: -1
+chara_hair_back
+  rotate: false
+  xy: 2016, 364
+  size: 252, 157
+  orig: 252, 157
+  offset: 0, 0
+  index: -1
+chara_hair_front
+  rotate: true
+  xy: 2614, 424
+  size: 172, 203
+  orig: 172, 203
+  offset: 0, 0
+  index: -1
+portal_basis
+  rotate: false
+  xy: 0, 123
+  size: 900, 888
+  orig: 900, 900
+  offset: 0, 12
+  index: -1
+portal_layover
+  rotate: true
+  xy: 3503, 619
+  size: 392, 496
+  orig: 392, 496
+  offset: 0, 0
+  index: -1
+portal_past_preview
+  rotate: false
+  xy: 2943, 596
+  size: 560, 415
+  orig: 560, 415
+  offset: 0, 0
+  index: -1
+portal_sterne_unten
+  rotate: false
+  xy: 2268, 356
+  size: 101, 165
+  orig: 162, 216
+  offset: 29, 34
+  index: -1
+portal_sterne_unten_v2
+  rotate: true
+  xy: 2817, 454
+  size: 142, 199
+  orig: 193, 251
+  offset: 20, 28
+  index: -1
+portal_zukunft_innen_weisser_kreis
+  rotate: true
+  xy: 1381, 46
+  size: 378, 232
+  orig: 502, 366
+  offset: 79, 89
+  index: -1
+portal_zukunft_preview
+  rotate: false
+  xy: 2381, 596
+  size: 562, 415
+  orig: 572, 426
+  offset: 10, 0
+  index: -1
+portal_zukunft_sterne_aussen
+  rotate: false
+  xy: 900, 424
+  size: 798, 587
+  orig: 826, 618
+  offset: 28, 0
+  index: -1
+portal_zukunft_sterne_innen
+  rotate: false
+  xy: 900, 76
+  size: 481, 348
+  orig: 502, 366
+  offset: 0, 18
+  index: -1
+portal_zukunft_unten_weisseR_kreis
+  rotate: false
+  xy: 0, 4
+  size: 364, 119
+  orig: 364, 220
+  offset: 0, 42
+  index: -1
+portal_zukunft_untester_weisser_kreis
+  rotate: false
+  xy: 1698, 346
+  size: 318, 175
+  orig: 900, 900
+  offset: 370, 50
+  index: -1
+portal_zukunft_weisser_kreis_aussen
+  rotate: false
+  xy: 1698, 521
+  size: 683, 490
+  orig: 720, 490
+  offset: 19, 0
+  index: -1
