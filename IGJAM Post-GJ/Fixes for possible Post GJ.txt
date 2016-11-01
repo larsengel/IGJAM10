@@ -1,0 +1,16 @@
+Fix
+-Objekte auf Tablett verschwinden bei Szenenwechsel
+-Spiel beenden
+-Laserpiratmammut mit Euter sagt trotzdem dass es keinen Euter hat
+-Inventarbilder sehr klein
+-Textbox: Abstand zwischen Text und Box
+
+
+Add
+-Dialoge laut Dialog-Word-Datei
+-Talk Animationen abspielen
+-Sounds einbauen
+-Waschmaschine läuft erst, Jelly manuell rausnehmen (deutlicher)
+-Ei selbst nehmen, wenn Dino abgelenkt?
+-Toast selbst aus Toaster nehmen
+-Erschrocken Animation bei Explosion

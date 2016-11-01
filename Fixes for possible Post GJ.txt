@@ -1,0 +1,11 @@
+Fix
+1. Objekte auf Tablett verschwinden bei Szenenwechsel (Workaround: Sachen können erst abgelegt werden, wenn alles gefunden wurde)
+2. Spiel beenden im Menü
+3. Laserpiratmammut mit Euter sagt trotzdem dass es keinen Euter hat
+4. Talk Animationen abspielen
+5. Dialoge einbauen
+6. Sounds einbauen
+7. Toast selbst aus Toaster nehmen, Jelly selbst aus Waschmaschine nehmen (es wird deutlicher, was passiert)
+8. Erschrocken Animation wenn Toaster explodiert
+9. Inventarbilder sehr klein
+10. Textbox: Abstand zwischen Text und Box

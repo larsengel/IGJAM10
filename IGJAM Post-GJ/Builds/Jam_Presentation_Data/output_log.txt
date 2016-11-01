@@ -1,0 +1,72 @@
+Initialize engine version: 5.4.2f2 (b7e030c65c9b)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GT 730M (ID=0x1290)
+    Vendor:   NVIDIA
+    VRAM:     997 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\lars.engel\dev\IGJAM10\Builds\Jam_Presentation_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\lars.engel\dev\IGJAM10\Builds\Jam_Presentation_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\lars.engel\dev\IGJAM10\Builds\Jam_Presentation_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\lars.engel\dev\IGJAM10\Builds\Jam_Presentation_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\lars.engel\dev\IGJAM10\Builds\Jam_Presentation_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\lars.engel\dev\IGJAM10\Builds\Jam_Presentation_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\lars.engel\dev\IGJAM10\Builds\Jam_Presentation_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\lars.engel\dev\IGJAM10\Builds\Jam_Presentation_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+- Completed reload, in  0.170 seconds
+Platform assembly: C:\Users\lars.engel\dev\IGJAM10\Builds\Jam_Presentation_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\lars.engel\dev\IGJAM10\Builds\Jam_Presentation_Data\Managed\System.dll (this message is harmless)
+desktop: 2880x1620 60Hz; virtual: 2880x1620 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 2.769921 ms
+PlayerPrefs Key 'AC_IGJAM_Adventure_0' loaded
+
+-----------------------------
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+PlayerStart 'PlayerStart2D' has no Camera On Start
+
+-----------------------------
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1945.
+Total: 5.188739 ms (FindLiveObjects: 0.168496 ms CreateObjectMapping: 0.294226 ms MarkObjects: 4.655880 ms  DeleteObjects: 0.065431 ms)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.685816 ms
+New player prefab found - Player deleted
+
+-----------------------------
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2395.
+Total: 8.136993 ms (FindLiveObjects: 0.219814 ms CreateObjectMapping: 0.390021 ms MarkObjects: 7.471134 ms  DeleteObjects: 0.053884 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 2395.
+Total: 7.992018 ms (FindLiveObjects: 0.212544 ms CreateObjectMapping: 0.376764 ms MarkObjects: 7.381326 ms  DeleteObjects: 0.020099 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+PlayerStart 'PlayerStart2D' has no Camera On Start
+
+-----------------------------
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 2396.
+Total: 7.094797 ms (FindLiveObjects: 0.226657 ms CreateObjectMapping: 0.375481 ms MarkObjects: 6.451604 ms  DeleteObjects: 0.039344 ms)
+
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 2774 -> priority: 1 
+  Thread -> id: 34f0 -> priority: 1 

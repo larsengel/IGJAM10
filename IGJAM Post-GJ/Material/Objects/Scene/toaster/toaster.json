@@ -1,0 +1,24 @@
+{"skeleton":{"images":"images/"},
+"bones":[{"name":"root"}],
+"slots":[
+	{"name":"Ebene 4","bone":"root","attachment":"Ebene 4"},
+	{"name":"burnt","bone":"root","attachment":"burnt"},
+	{"name":"Ebene 5","bone":"root","attachment":"Ebene 5"},
+	{"name":"Ebene 2","bone":"root","attachment":"Ebene 2"},
+	{"name":"Ebene 3","bone":"root","attachment":"Ebene 3"},
+	{"name":"switch","bone":"root","attachment":"switch"},
+	{"name":"toast","bone":"root","attachment":"toast"}
+],
+"skins":{
+	"default":{
+		"toast":{"toast":{"x":539.5,"y":971,"width":567,"height":440}},
+		"switch":{"switch":{"x":1032,"y":262.5,"width":240,"height":129}},
+		"Ebene 3":{"Ebene 3":{"x":593,"y":560.5,"width":982,"height":919}},
+		"Ebene 2":{"Ebene 2":{"x":629,"y":567.5,"width":1074,"height":971}},
+		"Ebene 5":{"Ebene 5":{"x":596,"y":552.5,"width":918,"height":931}},
+		"burnt":{"burnt":{"x":634,"y":571,"width":1074,"height":958}},
+		"Ebene 4":{"Ebene 4":{"x":634,"y":571,"width":1074,"height":958}}
+	}
+},
+"animations":{"animation":{}}
+}

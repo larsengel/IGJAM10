@@ -1,0 +1,1018 @@
+{
+"skeleton": { "hash": "A5KmAJl2EJoZwXS9BzadZ//9UYI", "spine": "3.4.02", "width": 504.37, "height": 659.73, "images": "./images/" },
+"bones": [
+	{ "name": "root", "x": 1.26 },
+	{ "name": "mammut_koerper", "parent": "root", "length": 244.31, "rotation": 86.58, "x": 118.23, "y": 50.86 },
+	{ "name": "euter", "parent": "mammut_koerper", "length": 128.03, "rotation": 123.55, "x": -8.23, "y": 76.81, "shearY": -4.33 },
+	{ "name": "mammut_kopf", "parent": "mammut_koerper", "length": 238.03, "rotation": 11.15, "x": 207.17, "y": -13.15 },
+	{ "name": "mammut-mouth_left", "parent": "mammut_kopf", "length": 154.48, "rotation": 152.53, "x": 16.46, "y": 105.02 },
+	{ "name": "mammut-mouth_right", "parent": "mammut_kopf", "length": 157.59, "rotation": 157.75, "x": -4.47, "y": 21.17 },
+	{ "name": "mammut_arm_links", "parent": "mammut_koerper", "length": 106.55, "rotation": 154.4, "x": 184.34, "y": 137.17 },
+	{ "name": "mammut_arm_links_handschuh", "parent": "mammut_arm_links", "length": 64.92, "rotation": -31.57, "x": 82.94, "y": 3.55 },
+	{
+		"name": "mammut_arm_links_handx",
+		"parent": "mammut_arm_links_handschuh",
+		"length": 55.8,
+		"rotation": 32.39,
+		"x": 54.23,
+		"y": -3.86
+	},
+	{ "name": "mammut_arm_rechts", "parent": "mammut_koerper", "length": 171.81, "rotation": -177.06, "x": 219.53, "y": -110.14 },
+	{
+		"name": "mammut_arm_rechts_handschuh",
+		"parent": "mammut_arm_rechts",
+		"length": 80.57,
+		"rotation": -56.68,
+		"x": 129.58,
+		"y": 0.36
+	},
+	{
+		"name": "mammut_arm_rechts_handx",
+		"parent": "mammut_arm_rechts_handschuh",
+		"length": 70.91,
+		"rotation": 25.77,
+		"x": 67.42,
+		"y": -12.31
+	},
+	{ "name": "mammut_bein_links", "parent": "mammut_koerper", "length": 166.83, "rotation": 173.87, "x": -25.54, "y": 220.18 },
+	{ "name": "mammut_bein_rechts", "parent": "mammut_koerper", "length": 154.44, "rotation": 177.46, "x": -71.01, "y": 53.37 },
+	{ "name": "mammut_ruessel2", "parent": "mammut_kopf", "length": 85.63, "rotation": 146.57, "x": 21.24, "y": 53.68 },
+	{ "name": "mammut_ruessel3", "parent": "mammut_ruessel2", "length": 71.51, "rotation": 3.56, "x": 72.24, "y": -2.4 },
+	{ "name": "mammut_ruessel4", "parent": "mammut_ruessel3", "length": 83.54, "rotation": 12.08, "x": 55.15, "y": -0.36 },
+	{ "name": "mammut_ruessel5", "parent": "mammut_ruessel4", "length": 59.41, "rotation": 17.07, "x": 71.1, "y": -0.72 }
+],
+"slots": [
+	{ "name": "lasermammut-voll", "bone": "root" },
+	{ "name": "Körper", "bone": "mammut_koerper" },
+	{ "name": "body", "bone": "mammut_koerper", "attachment": "body" },
+	{ "name": "Arm_left", "bone": "mammut_arm_links", "attachment": "Arm_left" },
+	{ "name": "Arm_left_handschuh", "bone": "mammut_arm_links_handschuh", "attachment": "Arm_left_handschuh" },
+	{ "name": "Arm_left_handx", "bone": "mammut_arm_links_handx", "attachment": "Arm_left_handx" },
+	{ "name": "Arm_right", "bone": "mammut_arm_rechts", "attachment": "Arm_right" },
+	{ "name": "lasermammut_lightcrayong", "bone": "mammut_koerper", "attachment": "lasermammut_lightcrayong" },
+	{ "name": "lasermammut_nomorecrayon", "bone": "mammut_koerper", "attachment": "lasermammut_nomorecrayon" },
+	{ "name": "mammut_umhang", "bone": "mammut_koerper", "attachment": "mammut_umhang" },
+	{ "name": "arm_right_handschuh", "bone": "mammut_arm_rechts_handschuh", "attachment": "arm_right_handschuh" },
+	{ "name": "arm_right_handx", "bone": "mammut_arm_rechts_handx", "attachment": "arm_right_handx" },
+	{ "name": "leg_left", "bone": "mammut_bein_links", "attachment": "leg_left" },
+	{ "name": "xy", "bone": "euter", "attachment": "xy" },
+	{ "name": "leg_right", "bone": "mammut_bein_rechts", "attachment": "leg_right" },
+	{ "name": "head", "bone": "mammut_kopf", "attachment": "head" },
+	{ "name": "mouth_left", "bone": "mammut-mouth_left", "attachment": "mouth_left" },
+	{ "name": "mammut_ruessel2", "bone": "mammut_ruessel2", "attachment": "mammut_ruessel2" },
+	{ "name": "mammut_ruessel3", "bone": "mammut_ruessel3", "attachment": "mammut_ruessel3" },
+	{ "name": "ruessel4", "bone": "mammut_ruessel4", "attachment": "ruessel4" },
+	{ "name": "mammut_ruessel5", "bone": "mammut_ruessel5", "attachment": "mammut_ruessel5" },
+	{ "name": "mouth_right", "bone": "mammut-mouth_right", "attachment": "mouth_right" },
+	{ "name": "mammut_eyes", "bone": "mammut_kopf", "attachment": "mammut_eyes" },
+	{ "name": "mammut_eyes_blink01", "bone": "mammut_kopf", "attachment": "mammut_eyes_blink01" },
+	{ "name": "mammut_eyes_blink02", "bone": "mammut_kopf", "attachment": "mammut_eyes_blink02" },
+	{ "name": "lasermammut-leuchtelemente", "bone": "mammut_koerper", "attachment": "lasermammut-leuchtelemente", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"lasermammut-leuchtelemente": {
+			"lasermammut-leuchtelemente": { "x": 43.85, "y": 51.12, "rotation": -86.58, "width": 500, "height": 339 }
+		},
+		"lasermammut_lightcrayong": {
+			"lasermammut_lightcrayong": { "x": 0.71, "y": -15.05, "rotation": -86.58, "width": 85, "height": 109 }
+		},
+		"lasermammut_nomorecrayon": {
+			"lasermammut_nomorecrayon": { "x": -0.86, "y": -13.65, "rotation": -86.58, "width": 74, "height": 28 }
+		},
+		"mammut_eyes": {
+			"mammut_eyes": { "x": 61.71, "y": 43.49, "rotation": -97.73, "width": 119, "height": 30 }
+		},
+		"mammut_eyes_blink01": {
+			"mammut_eyes_blink01": { "x": 62.7, "y": 43.36, "rotation": -97.73, "width": 119, "height": 28 }
+		},
+		"mammut_eyes_blink02": {
+			"mammut_eyes_blink02": { "x": 62.27, "y": 43.92, "rotation": -97.73, "width": 118, "height": 25 }
+		},
+		"mammut_ruessel2": {
+			"mammut_ruessel2": { "x": 31.71, "y": -0.1, "rotation": 115.69, "width": 82, "height": 90 }
+		},
+		"mammut_ruessel3": {
+			"mammut_ruessel3": { "x": 22.8, "y": 8.88, "rotation": 112.12, "width": 60, "height": 74 }
+		},
+		"mammut_ruessel5": {
+			"mammut_ruessel5": { "x": 21.68, "y": -0.8, "rotation": 82.96, "width": 24, "height": 62 }
+		},
+		"mammut_umhang": {
+			"mammut_umhang": { "x": 199.17, "y": 11.46, "rotation": -86.58, "width": 365, "height": 147 }
+		}
+	},
+	"euter": {
+		"Arm_left": {
+			"Arm_left": { "name": "lasermammut_arm_links", "x": 25.52, "y": 2.17, "rotation": 119.01, "width": 98, "height": 151 }
+		},
+		"Arm_left_handschuh": {
+			"Arm_left_handschuh": { "name": "lasermammut_arm_links_handschuh", "x": 26.02, "y": 5.19, "rotation": 149.69, "width": 127, "height": 112 }
+		},
+		"Arm_left_handx": {
+			"Arm_left_handx": { "name": "lasermammut_piratenversion_glove", "x": 43.25, "y": -0.88, "rotation": 123.66, "width": 115, "height": 108 }
+		},
+		"Arm_right": {
+			"Arm_right": { "name": "lasermammut_arm_rechts", "x": 78.35, "y": -11.29, "rotation": 90.48, "width": 127, "height": 192 }
+		},
+		"arm_right_handschuh": {
+			"arm_right_handschuh": { "name": "lasermammut_arm_rechts_handschuh", "x": 28.69, "y": 10.84, "rotation": 147.17, "width": 171, "height": 128 }
+		},
+		"arm_right_handx": {
+			"arm_right_handx": { "name": "lasermammut_arm_rechts_handx", "x": 43.6, "y": -4.18, "rotation": 121.56, "width": 98, "height": 99 }
+		},
+		"body": {
+			"body": { "name": "_0001_lasermammut_koerper", "x": 62.24, "y": 70.98, "rotation": -86.58, "width": 394, "height": 366 }
+		},
+		"head": {
+			"head": {
+				"name": "lasermammut_piratenversion_kopf",
+				"x": 96.05,
+				"y": 7.36,
+				"scaleX": 1.356,
+				"scaleY": 1.356,
+				"rotation": -97.73,
+				"width": 206,
+				"height": 170
+			}
+		},
+		"leg_left": {
+			"leg_left": { "name": "_0000_lasermammut_bein_links", "x": 74.58, "y": -10.26, "rotation": 99.54, "width": 118, "height": 238 }
+		},
+		"leg_right": {
+			"leg_right": { "name": "_0002_lasermammut_bein_rechts", "x": 66.27, "y": -8.59, "rotation": 95.95, "width": 126, "height": 223 }
+		},
+		"mouth_left": {
+			"mouth_left": { "name": "lasermammut_mund_links", "x": 83.36, "y": -4.81, "rotation": 107.83, "width": 149, "height": 196 }
+		},
+		"mouth_right": {
+			"mouth_right": { "name": "lasermammut_mund_rechts", "x": 73.3, "y": -9.05, "rotation": 106.09, "width": 173, "height": 257 }
+		},
+		"ruessel4": {
+			"ruessel4": { "name": "mammut_ruessel_4", "x": 31.33, "y": 3.77, "rotation": 100.03, "width": 47, "height": 94 }
+		},
+		"xy": {
+			"xy": { "name": "euter", "x": 49.58, "y": -1.81, "scaleX": 1.224, "scaleY": 1.224, "rotation": 155.47, "width": 124, "height": 100 }
+		}
+	},
+	"laser": {
+		"Arm_left": {
+			"Arm_left": { "name": "lasermammut_arm_links", "x": 25.52, "y": 2.17, "rotation": 119.01, "width": 98, "height": 151 }
+		},
+		"Arm_left_handschuh": {
+			"Arm_left_handschuh": { "name": "lasermammut_arm_links_handschuh", "x": 26.02, "y": 5.19, "rotation": 149.69, "width": 127, "height": 112 }
+		},
+		"Arm_left_handx": {
+			"Arm_left_handx": { "name": "lasermammut_arm_links_handx", "x": 34.23, "y": 1.07, "rotation": 123.66, "width": 85, "height": 79 }
+		},
+		"Arm_right": {
+			"Arm_right": { "name": "lasermammut_arm_rechts", "x": 78.35, "y": -11.29, "rotation": 90.48, "width": 127, "height": 192 }
+		},
+		"arm_right_handschuh": {
+			"arm_right_handschuh": { "name": "lasermammut_arm_rechts_handschuh", "x": 28.69, "y": 10.84, "rotation": 147.17, "width": 171, "height": 128 }
+		},
+		"arm_right_handx": {
+			"arm_right_handx": { "name": "lasermammut_arm_rechts_handx", "x": 43.6, "y": -4.18, "rotation": 121.56, "width": 98, "height": 99 }
+		},
+		"body": {
+			"body": { "name": "_0001_lasermammut_koerper", "x": 62.24, "y": 70.98, "rotation": -86.58, "width": 394, "height": 366 }
+		},
+		"head": {
+			"head": { "name": "lasermammut_kopf", "x": 96.2, "y": 3.99, "rotation": -97.73, "width": 276, "height": 229 }
+		},
+		"leg_left": {
+			"leg_left": { "name": "_0000_lasermammut_bein_links", "x": 74.46, "y": -9.55, "rotation": 99.54, "width": 118, "height": 238 }
+		},
+		"leg_right": {
+			"leg_right": { "name": "_0002_lasermammut_bein_rechts", "x": 66.27, "y": -8.59, "rotation": 95.95, "width": 126, "height": 223 }
+		},
+		"mouth_left": {
+			"mouth_left": { "name": "lasermammut_mund_links", "x": 83.36, "y": -4.81, "rotation": 107.83, "width": 149, "height": 196 }
+		},
+		"mouth_right": {
+			"mouth_right": { "name": "lasermammut_mund_rechts", "x": 73.3, "y": -9.05, "rotation": 106.09, "width": 173, "height": 257 }
+		},
+		"ruessel4": {
+			"ruessel4": { "name": "mammut_ruessel_4", "x": 31.33, "y": 3.77, "rotation": 100.03, "width": 47, "height": 94 }
+		}
+	},
+	"normal": {
+		"Arm_left": {
+			"Arm_left": { "name": "mammut_arm_links", "x": 37.71, "y": 4.93, "rotation": 119.01, "width": 91, "height": 109 }
+		},
+		"Arm_left_handschuh": {
+			"Arm_left_handschuh": { "name": "mammut_arm_links_handschuh", "x": 26.85, "y": 7.6, "rotation": 149.69, "width": 86, "height": 67 }
+		},
+		"Arm_left_handx": {
+			"Arm_left_handx": { "name": "mammut_arm_links_handx", "x": 17.35, "y": 0.29, "rotation": 120.57, "width": 52, "height": 51 }
+		},
+		"Arm_right": {
+			"Arm_right": { "name": "mammut_arm_rechts", "x": 81.17, "y": 10.23, "rotation": 90.48, "width": 96, "height": 178 }
+		},
+		"arm_right_handschuh": {
+			"arm_right_handschuh": { "name": "mammut_arm_rechts_handschuh", "x": 33.8, "y": 12.31, "rotation": 147.17, "width": 132, "height": 80 }
+		},
+		"arm_right_handx": {
+			"arm_right_handx": { "name": "mammut_arm_rechts_handx", "x": 24.97, "y": -1.54, "rotation": 121.56, "width": 74, "height": 70 }
+		},
+		"body": {
+			"body": { "name": "mammut_koerper", "x": 37.42, "y": 49.74, "rotation": -86.58, "width": 436, "height": 316 }
+		},
+		"head": {
+			"head": { "name": "mammut_kopf", "x": 98.68, "y": 3.65, "rotation": -97.73, "width": 276, "height": 254 }
+		},
+		"leg_left": {
+			"leg_left": { "name": "mammut_bein_links", "x": 71.74, "y": 3.32, "rotation": 99.54, "width": 95, "height": 192 }
+		},
+		"leg_right": {
+			"leg_right": { "name": "mammut_bein_rechts", "x": 68.17, "y": 1.66, "rotation": 95.95, "width": 107, "height": 188 }
+		},
+		"mouth_left": {
+			"mouth_left": { "name": "mammut-mouth_left", "x": 72.57, "y": -8.8, "rotation": 107.83, "width": 94, "height": 163 }
+		},
+		"mouth_right": {
+			"mouth_right": { "name": "mammut-mouth_right", "x": 107.85, "y": 15.48, "rotation": 106.09, "width": 145, "height": 337 }
+		},
+		"ruessel4": {
+			"ruessel4": { "name": "mammut_ruessel4", "x": 31.33, "y": 3.77, "rotation": 100.03, "width": 47, "height": 94 }
+		}
+	},
+	"pirat": {
+		"Arm_left": {
+			"Arm_left": { "name": "lasermammut_arm_links", "x": 25.52, "y": 2.17, "rotation": 119.01, "width": 98, "height": 151 }
+		},
+		"Arm_left_handschuh": {
+			"Arm_left_handschuh": { "name": "lasermammut_arm_links_handschuh", "x": 26.02, "y": 5.19, "rotation": 149.69, "width": 127, "height": 112 }
+		},
+		"Arm_left_handx": {
+			"Arm_left_handx": { "name": "lasermammut_piratenversion_glove", "x": 43.25, "y": -0.88, "rotation": 123.66, "width": 115, "height": 108 }
+		},
+		"Arm_right": {
+			"Arm_right": { "name": "lasermammut_arm_rechts", "x": 78.35, "y": -11.29, "rotation": 90.48, "width": 127, "height": 192 }
+		},
+		"arm_right_handschuh": {
+			"arm_right_handschuh": { "name": "lasermammut_arm_rechts_handschuh", "x": 28.69, "y": 10.84, "rotation": 147.17, "width": 171, "height": 128 }
+		},
+		"arm_right_handx": {
+			"arm_right_handx": { "name": "lasermammut_arm_rechts_handx", "x": 43.6, "y": -4.18, "rotation": 121.56, "width": 98, "height": 99 }
+		},
+		"body": {
+			"body": { "name": "_0001_lasermammut_koerper", "x": 62.24, "y": 70.98, "rotation": -86.58, "width": 394, "height": 366 }
+		},
+		"head": {
+			"head": {
+				"name": "lasermammut_piratenversion_kopf",
+				"x": 96.05,
+				"y": 7.36,
+				"scaleX": 1.356,
+				"scaleY": 1.356,
+				"rotation": -97.73,
+				"width": 206,
+				"height": 170
+			}
+		},
+		"leg_left": {
+			"leg_left": { "name": "_0000_lasermammut_bein_links", "x": 74.58, "y": -10.26, "rotation": 99.54, "width": 118, "height": 238 }
+		},
+		"leg_right": {
+			"leg_right": { "name": "_0002_lasermammut_bein_rechts", "x": 66.27, "y": -8.59, "rotation": 95.95, "width": 126, "height": 223 }
+		},
+		"mouth_left": {
+			"mouth_left": { "name": "lasermammut_mund_links", "x": 83.36, "y": -4.81, "rotation": 107.83, "width": 149, "height": 196 }
+		},
+		"mouth_right": {
+			"mouth_right": { "name": "lasermammut_mund_rechts", "x": 73.3, "y": -9.05, "rotation": 106.09, "width": 173, "height": 257 }
+		},
+		"ruessel4": {
+			"ruessel4": { "name": "mammut_ruessel_4", "x": 31.33, "y": 3.77, "rotation": 100.03, "width": 47, "height": 94 }
+		}
+	}
+},
+"animations": {
+	"idle": {
+		"slots": {
+			"lasermammut-leuchtelemente": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" },
+					{ "time": 1.3333, "color": "ffffff32" },
+					{ "time": 2.6666, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 2.6666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2.6666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 2.6666, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2.6666, "x": 0, "y": 0 }
+				]
+			},
+			"mammut_ruessel5": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 1.1, "angle": 7.47 },
+					{ "time": 1.9666, "angle": 2.02 },
+					{ "time": 2.6666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2.6666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 2.6666, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2.6666, "x": 0, "y": 0 }
+				]
+			},
+			"mammut_ruessel4": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 1.1, "angle": 3.51 },
+					{ "time": 1.9666, "angle": -5.24 },
+					{ "time": 2.6666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2.6666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 2.6666, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2.6666, "x": 0, "y": 0 }
+				]
+			},
+			"mammut_ruessel3": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 1.1, "angle": -0.75 },
+					{ "time": 1.9666, "angle": -2.37 },
+					{ "time": 2.6666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2.6666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 2.6666, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2.6666, "x": 0, "y": 0 }
+				]
+			},
+			"mammut_ruessel2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 1.1, "angle": 4.45 },
+					{ "time": 1.9666, "angle": 2.02 },
+					{ "time": 2.6666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2.6666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 2.6666, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2.6666, "x": 0, "y": 0 }
+				]
+			},
+			"mammut-mouth_right": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 2.6666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2.6666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 2.6666, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2.6666, "x": 0, "y": 0 }
+				]
+			},
+			"mammut-mouth_left": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 2.6666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2.6666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 2.6666, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2.6666, "x": 0, "y": 0 }
+				]
+			},
+			"mammut_kopf": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 1.7333, "angle": 1.34 },
+					{ "time": 2.6666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 1.7333, "x": -0.96, "y": 0.85 },
+					{ "time": 2.6666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 2.6666, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2.6666, "x": 0, "y": 0 }
+				]
+			},
+			"mammut_bein_rechts": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 2.6666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 1.1333, "x": 2.55, "y": 0.15 },
+					{ "time": 2.6666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 2.6666, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2.6666, "x": 0, "y": 0 }
+				]
+			},
+			"mammut_bein_links": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 2.6666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 1.1333, "x": 1.65, "y": 0.95 },
+					{ "time": 2.6666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 2.6666, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2.6666, "x": 0, "y": 0 }
+				]
+			},
+			"mammut_arm_rechts_handx": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 1.6666, "angle": -2.77 },
+					{ "time": 2.6666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2.6666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 2.6666, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2.6666, "x": 0, "y": 0 }
+				]
+			},
+			"mammut_arm_rechts_handschuh": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 1.6666, "angle": -2.77 },
+					{ "time": 2.6666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2.6666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 2.6666, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2.6666, "x": 0, "y": 0 }
+				]
+			},
+			"mammut_arm_rechts": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 2.6666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2.6666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 2.6666, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2.6666, "x": 0, "y": 0 }
+				]
+			},
+			"mammut_arm_links_handx": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 2.6666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2.6666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 2.6666, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2.6666, "x": 0, "y": 0 }
+				]
+			},
+			"mammut_arm_links_handschuh": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 2.6666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2.6666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 2.6666, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2.6666, "x": 0, "y": 0 }
+				]
+			},
+			"mammut_arm_links": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 2.6666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2.6666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 2.6666, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2.6666, "x": 0, "y": 0 }
+				]
+			},
+			"euter": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 2.6666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2.6666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 2.6666, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 1.1, "x": 3.15, "y": 4.07 },
+					{ "time": 2.6666, "x": 0, "y": 0 }
+				]
+			},
+			"mammut_koerper": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 2.6666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": -1.7, "y": -3.41 },
+					{ "time": 1.1333, "x": 0, "y": -7.68 },
+					{ "time": 2.6666, "x": -1.7, "y": -3.41 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 2.6666, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2.6666, "x": 0, "y": 0 }
+				]
+			}
+		}
+	},
+	"talk": {
+		"slots": {
+			"lasermammut-leuchtelemente": {
+				"color": [
+					{ "time": 0, "color": "f8fff7ff" },
+					{ "time": 0.7, "color": "ffffff32" },
+					{ "time": 1.4666, "color": "f8fff7ff" },
+					{ "time": 1.9666, "color": "ffffff32" },
+					{ "time": 2.6666, "color": "f8fff7ff" }
+				],
+				"attachment": [
+					{ "time": 1.4, "name": "lasermammut-leuchtelemente" }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 2.6666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2.6666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 2.6666, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2.6666, "x": 0, "y": 0 }
+				]
+			},
+			"mammut_koerper": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 2.6666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2.6666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 2.6666, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2.6666, "x": 0, "y": 0 }
+				]
+			},
+			"mammut_kopf": {
+				"rotate": [
+					{ "time": 0, "angle": -12.6 },
+					{ "time": 0.7666, "angle": -10.21 },
+					{ "time": 1.2, "angle": -15.63 },
+					{ "time": 1.5, "angle": -11.63 },
+					{ "time": 1.7333, "angle": -19.78 },
+					{ "time": 2.6666, "angle": -12.6 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2.6666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 2.6666, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2.6666, "x": 0, "y": 0 }
+				]
+			},
+			"mammut_ruessel2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.6666, "angle": 1.41 },
+					{ "time": 0.9666, "angle": 1.27 },
+					{ "time": 1.4333, "angle": -7.57 },
+					{ "time": 2.2666, "angle": 7.93 },
+					{ "time": 2.6666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2.6666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 2.6666, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2.6666, "x": 0, "y": 0 }
+				]
+			},
+			"mammut_ruessel3": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.6666, "angle": 1.93 },
+					{ "time": 0.9666, "angle": 1.74 },
+					{ "time": 1.4333, "angle": -0.67 },
+					{ "time": 2.2666, "angle": 7.11 },
+					{ "time": 2.6666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2.6666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 2.6666, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2.6666, "x": 0, "y": 0 }
+				]
+			},
+			"mammut_ruessel4": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.6666, "angle": 3.29 },
+					{ "time": 0.9666, "angle": 3.27 },
+					{ "time": 1.4333, "angle": -12.13 },
+					{ "time": 2.2666, "angle": -4.37 },
+					{ "time": 2.6666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2.6666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 2.6666, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2.6666, "x": 0, "y": 0 }
+				]
+			},
+			"mammut_ruessel5": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.6666, "angle": 2.1 },
+					{ "time": 0.9666, "angle": 11.96 },
+					{ "time": 1.4333, "angle": -17.61 },
+					{ "time": 2.2666, "angle": 35.78 },
+					{ "time": 2.6666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2.6666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 2.6666, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2.6666, "x": 0, "y": 0 }
+				]
+			},
+			"mammut_arm_rechts": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 2.6666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2.6666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 2.6666, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2.6666, "x": 0, "y": 0 }
+				]
+			},
+			"mammut_arm_rechts_handschuh": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 2.2, "angle": -18.97 },
+					{ "time": 2.6666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2.6666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 2.6666, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2.6666, "x": 0, "y": 0 }
+				]
+			},
+			"mammut_arm_rechts_handx": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 2.6666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2.6666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 2.6666, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2.6666, "x": 0, "y": 0 }
+				]
+			},
+			"mammut_arm_links": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 2.6666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2.6666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 2.6666, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2.6666, "x": 0, "y": 0 }
+				]
+			},
+			"mammut_arm_links_handschuh": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 2.6666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2.6666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 2.6666, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2.6666, "x": 0, "y": 0 }
+				]
+			},
+			"mammut_arm_links_handx": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 2.6666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2.6666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 2.6666, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2.6666, "x": 0, "y": 0 }
+				]
+			},
+			"mammut_bein_links": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 2.6666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2.6666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 2.6666, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2.6666, "x": 0, "y": 0 }
+				]
+			},
+			"mammut_bein_rechts": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 2.6666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2.6666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 2.6666, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2.6666, "x": 0, "y": 0 }
+				]
+			},
+			"mammut-mouth_right": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.7333, "angle": 2.31 },
+					{ "time": 1.2333, "angle": 4.6 },
+					{ "time": 1.6666, "angle": 7.21 },
+					{ "time": 1.9333, "angle": 1.81 },
+					{ "time": 2.6666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2.6666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 2.6666, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2.6666, "x": 0, "y": 0 }
+				]
+			},
+			"mammut-mouth_left": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.7333, "angle": -2.34 },
+					{ "time": 1.2333, "angle": 2.87 },
+					{ "time": 1.6666, "angle": 7.14 },
+					{ "time": 1.9333, "angle": 1.03 },
+					{ "time": 2.6666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2.6666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 2.6666, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2.6666, "x": 0, "y": 0 }
+				]
+			},
+			"euter": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 2.6666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2.6666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 2.6666, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.9333, "x": 1.7, "y": 1.95 },
+					{ "time": 2.6666, "x": 0, "y": 0 }
+				]
+			}
+		}
+	}
+}
+}

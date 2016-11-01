@@ -1,0 +1,76 @@
+
+toaster.png
+size: 4096,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Ebene 1
+  rotate: false
+  xy: 3060, 1191
+  size: 339, 391
+  orig: 341, 393
+  offset: 1, 1
+  index: -1
+Ebene 2
+  rotate: false
+  xy: 0, 1051
+  size: 1072, 969
+  orig: 1074, 971
+  offset: 1, 1
+  index: -1
+Ebene 3
+  rotate: false
+  xy: 1072, 147
+  size: 980, 917
+  orig: 982, 919
+  offset: 1, 1
+  index: -1
+Ebene 4
+  rotate: false
+  xy: 1072, 1064
+  size: 1072, 956
+  orig: 1074, 958
+  offset: 1, 1
+  index: -1
+Ebene 5
+  rotate: false
+  xy: 2144, 1091
+  size: 916, 929
+  orig: 918, 931
+  offset: 1, 1
+  index: -1
+burnt
+  rotate: false
+  xy: 0, 95
+  size: 1072, 956
+  orig: 1074, 958
+  offset: 1, 1
+  index: -1
+funken
+  rotate: false
+  xy: 0, 0
+  size: 134, 95
+  orig: 136, 97
+  offset: 1, 1
+  index: -1
+smoke
+  rotate: false
+  xy: 3625, 1666
+  size: 313, 354
+  orig: 315, 356
+  offset: 1, 1
+  index: -1
+switch
+  rotate: true
+  xy: 3399, 1344
+  size: 238, 127
+  orig: 240, 129
+  offset: 1, 1
+  index: -1
+toast
+  rotate: false
+  xy: 3060, 1582
+  size: 565, 438
+  orig: 567, 440
+  offset: 1, 1
+  index: -1

@@ -1,0 +1,18 @@
+{"skeleton":{"images":"images/"},
+"bones":[{"name":"root"}],
+"slots":[
+	{"name":"chara-bein-rechts-unten","bone":"root","attachment":"chara-bein-rechts-unten"},
+	{"name":"chara-arm-rechts-oben","bone":"root","attachment":"chara-arm-rechts-oben"},
+	{"name":"chara-arm-rechts-unten","bone":"root","attachment":"chara-arm-rechts-unten"},
+	{"name":"chara-bein-rechts-oben","bone":"root","attachment":"chara-bein-rechts-oben"}
+],
+"skins":{
+	"default":{
+		"chara-bein-rechts-oben":{"chara-bein-rechts-oben":{"x":1029.5,"y":831.5,"width":83,"height":205}},
+		"chara-arm-rechts-unten":{"chara-arm-rechts-unten":{"x":1082.5,"y":952.5,"width":27,"height":127}},
+		"chara-arm-rechts-oben":{"chara-arm-rechts-oben":{"x":1065,"y":1069.5,"width":70,"height":139}},
+		"chara-bein-rechts-unten":{"chara-bein-rechts-unten":{"x":1037,"y":695.5,"width":52,"height":191}}
+	}
+},
+"animations":{"animation":{}}
+}

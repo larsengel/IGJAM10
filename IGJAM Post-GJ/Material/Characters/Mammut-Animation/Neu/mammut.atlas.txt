@@ -1,0 +1,279 @@
+
+mammut.png
+size: 4096,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+_0000_lasermammut_bein_links
+  rotate: true
+  xy: 2670, 394
+  size: 118, 238
+  orig: 118, 238
+  offset: 0, 0
+  index: -1
+_0001_lasermammut_koerper
+  rotate: false
+  xy: 932, 146
+  size: 394, 366
+  orig: 394, 366
+  offset: 0, 0
+  index: -1
+_0002_lasermammut_bein_rechts
+  rotate: true
+  xy: 2908, 386
+  size: 126, 223
+  orig: 126, 223
+  offset: 0, 0
+  index: -1
+euter
+  rotate: true
+  xy: 1512, 136
+  size: 124, 100
+  orig: 124, 100
+  offset: 0, 0
+  index: -1
+lasermammut-leuchtelemente
+  rotate: false
+  xy: 0, 175
+  size: 498, 337
+  orig: 500, 339
+  offset: 1, 1
+  index: -1
+lasermammut_arm_links
+  rotate: false
+  xy: 363, 26
+  size: 96, 149
+  orig: 98, 151
+  offset: 1, 1
+  index: -1
+lasermammut_arm_links_handschuh
+  rotate: false
+  xy: 2035, 259
+  size: 125, 110
+  orig: 127, 112
+  offset: 1, 1
+  index: -1
+lasermammut_arm_links_handx
+  rotate: false
+  xy: 3126, 288
+  size: 83, 77
+  orig: 85, 79
+  offset: 1, 1
+  index: -1
+lasermammut_arm_rechts
+  rotate: true
+  xy: 3325, 387
+  size: 125, 190
+  orig: 127, 192
+  offset: 1, 1
+  index: -1
+lasermammut_arm_rechts_handschuh
+  rotate: false
+  xy: 3515, 386
+  size: 169, 126
+  orig: 171, 128
+  offset: 1, 1
+  index: -1
+lasermammut_arm_rechts_handx
+  rotate: true
+  xy: 2884, 290
+  size: 96, 97
+  orig: 98, 99
+  offset: 1, 1
+  index: -1
+lasermammut_kopf
+  rotate: false
+  xy: 1600, 285
+  size: 274, 227
+  orig: 276, 229
+  offset: 1, 1
+  index: -1
+lasermammut_lightcrayong
+  rotate: true
+  xy: 2670, 311
+  size: 83, 107
+  orig: 85, 109
+  offset: 1, 1
+  index: -1
+lasermammut_mund_links
+  rotate: true
+  xy: 3131, 365
+  size: 147, 194
+  orig: 149, 196
+  offset: 1, 1
+  index: -1
+lasermammut_mund_rechts
+  rotate: true
+  xy: 2209, 341
+  size: 171, 255
+  orig: 173, 257
+  offset: 1, 1
+  index: -1
+lasermammut_nomorecrayon
+  rotate: false
+  xy: 1612, 153
+  size: 72, 26
+  orig: 74, 28
+  offset: 1, 1
+  index: -1
+lasermammut_piratenversion_glove
+  rotate: false
+  xy: 1612, 179
+  size: 113, 106
+  orig: 115, 108
+  offset: 1, 1
+  index: -1
+lasermammut_piratenversion_kopf
+  rotate: false
+  xy: 2464, 342
+  size: 206, 170
+  orig: 206, 170
+  offset: 0, 0
+  index: -1
+mammut-mouth_left
+  rotate: true
+  xy: 1874, 277
+  size: 92, 161
+  orig: 94, 163
+  offset: 1, 1
+  index: -1
+mammut-mouth_right
+  rotate: true
+  xy: 1874, 369
+  size: 143, 335
+  orig: 145, 337
+  offset: 1, 1
+  index: -1
+mammut_arm_links
+  rotate: true
+  xy: 2777, 305
+  size: 89, 107
+  orig: 91, 109
+  offset: 1, 1
+  index: -1
+mammut_arm_links_handschuh
+  rotate: true
+  xy: 3061, 302
+  size: 84, 65
+  orig: 86, 67
+  offset: 1, 1
+  index: -1
+mammut_arm_links_handx
+  rotate: true
+  xy: 2160, 319
+  size: 50, 49
+  orig: 52, 51
+  offset: 1, 1
+  index: -1
+mammut_arm_rechts
+  rotate: true
+  xy: 3874, 418
+  size: 94, 176
+  orig: 96, 178
+  offset: 1, 1
+  index: -1
+mammut_arm_rechts_handschuh
+  rotate: false
+  xy: 1725, 207
+  size: 130, 78
+  orig: 132, 80
+  offset: 1, 1
+  index: -1
+mammut_arm_rechts_handx
+  rotate: false
+  xy: 3209, 297
+  size: 72, 68
+  orig: 74, 70
+  offset: 1, 1
+  index: -1
+mammut_bein_links
+  rotate: true
+  xy: 3684, 419
+  size: 93, 190
+  orig: 95, 192
+  offset: 1, 1
+  index: -1
+mammut_bein_rechts
+  rotate: true
+  xy: 1326, 155
+  size: 105, 186
+  orig: 107, 188
+  offset: 1, 1
+  index: -1
+mammut_eyes
+  rotate: false
+  xy: 3684, 391
+  size: 117, 28
+  orig: 119, 30
+  offset: 1, 1
+  index: -1
+mammut_eyes_blink01
+  rotate: false
+  xy: 0, 0
+  size: 117, 26
+  orig: 119, 28
+  offset: 1, 1
+  index: -1
+mammut_eyes_blink02
+  rotate: false
+  xy: 498, 175
+  size: 116, 23
+  orig: 118, 25
+  offset: 1, 1
+  index: -1
+mammut_koerper
+  rotate: false
+  xy: 498, 198
+  size: 434, 314
+  orig: 436, 316
+  offset: 1, 1
+  index: -1
+mammut_kopf
+  rotate: false
+  xy: 1326, 260
+  size: 274, 252
+  orig: 276, 254
+  offset: 1, 1
+  index: -1
+mammut_ruessel2
+  rotate: false
+  xy: 2981, 298
+  size: 80, 88
+  orig: 82, 90
+  offset: 1, 1
+  index: -1
+mammut_ruessel3
+  rotate: false
+  xy: 504, 103
+  size: 58, 72
+  orig: 60, 74
+  offset: 1, 1
+  index: -1
+mammut_ruessel4
+  rotate: false
+  xy: 4050, 420
+  size: 45, 92
+  orig: 47, 94
+  offset: 1, 1
+  index: -1
+mammut_ruessel5
+  rotate: true
+  xy: 3325, 365
+  size: 22, 60
+  orig: 24, 62
+  offset: 1, 1
+  index: -1
+mammut_ruessel_4
+  rotate: false
+  xy: 459, 83
+  size: 45, 92
+  orig: 47, 94
+  offset: 1, 1
+  index: -1
+mammut_umhang
+  rotate: false
+  xy: 0, 30
+  size: 363, 145
+  orig: 365, 147
+  offset: 1, 1
+  index: -1
