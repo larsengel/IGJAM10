@@ -1,0 +1,184 @@
+Initialize engine version: 5.4.2f2 (b7e030c65c9b)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GT 730M (ID=0x1290)
+    Vendor:   NVIDIA
+    VRAM:     997 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\lars.engel\dev\IGJAM10\Builds\Jam_Final_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\lars.engel\dev\IGJAM10\Builds\Jam_Final_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\lars.engel\dev\IGJAM10\Builds\Jam_Final_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\lars.engel\dev\IGJAM10\Builds\Jam_Final_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\lars.engel\dev\IGJAM10\Builds\Jam_Final_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\lars.engel\dev\IGJAM10\Builds\Jam_Final_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\lars.engel\dev\IGJAM10\Builds\Jam_Final_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\lars.engel\dev\IGJAM10\Builds\Jam_Final_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+- Completed reload, in  0.192 seconds
+Platform assembly: C:\Users\lars.engel\dev\IGJAM10\Builds\Jam_Final_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\lars.engel\dev\IGJAM10\Builds\Jam_Final_Data\Managed\System.dll (this message is harmless)
+desktop: 2880x1620 60Hz; virtual: 2880x1620 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 2.582609 ms
+PlayerPrefs Key 'AC_IGJAM_Adventure_0' loaded
+
+-----------------------------
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+PlayerStart 'PlayerStart2D' has no Camera On Start
+
+-----------------------------
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1945.
+Total: 7.974913 ms (FindLiveObjects: 0.262152 ms CreateObjectMapping: 0.449037 ms MarkObjects: 7.160229 ms  DeleteObjects: 0.079543 ms)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.302067 ms
+New player prefab found - Player deleted
+
+-----------------------------
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2395.
+Total: 9.661156 ms (FindLiveObjects: 0.366072 ms CreateObjectMapping: 0.597861 ms MarkObjects: 8.632645 ms  DeleteObjects: 0.061582 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 2395.
+Total: 8.526587 ms (FindLiveObjects: 0.377191 ms CreateObjectMapping: 0.623521 ms MarkObjects: 7.500642 ms  DeleteObjects: 0.022665 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+PlayerStart 'PlayerStart2D' has no Camera On Start
+
+-----------------------------
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 2396.
+Total: 11.156238 ms (FindLiveObjects: 0.355809 ms CreateObjectMapping: 0.594868 ms MarkObjects: 10.148255 ms  DeleteObjects: 0.055167 ms)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.945830 ms
+
+Unloading 233 unused Assets to reduce memory usage. Loaded Objects now: 2141.
+Total: 9.327585 ms (FindLiveObjects: 0.238203 ms CreateObjectMapping: 0.388310 ms MarkObjects: 6.061155 ms  DeleteObjects: 2.638204 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 2141.
+Total: 6.877549 ms (FindLiveObjects: 0.328866 ms CreateObjectMapping: 0.268995 ms MarkObjects: 6.089808 ms  DeleteObjects: 0.186885 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+PlayerStart 'PlayerStart2D' has no Camera On Start
+
+-----------------------------
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 2142.
+Total: 6.863864 ms (FindLiveObjects: 0.240342 ms CreateObjectMapping: 0.278831 ms MarkObjects: 6.127442 ms  DeleteObjects: 0.216821 ms)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.900071 ms
+New player prefab found - Player deleted
+
+-----------------------------
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+
+Unloading 109 unused Assets to reduce memory usage. Loaded Objects now: 2396.
+Total: 10.923594 ms (FindLiveObjects: 0.414825 ms CreateObjectMapping: 0.436635 ms MarkObjects: 7.797007 ms  DeleteObjects: 2.272131 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 2396.
+Total: 8.686530 ms (FindLiveObjects: 0.384889 ms CreateObjectMapping: 0.376336 ms MarkObjects: 7.726872 ms  DeleteObjects: 0.196293 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+PlayerStart 'first_start' has no Camera On Start
+
+-----------------------------
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 2397.
+Total: 9.220671 ms (FindLiveObjects: 0.394297 ms CreateObjectMapping: 0.582038 ms MarkObjects: 8.053172 ms  DeleteObjects: 0.189023 ms)
+
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.172060 ms
+FollowSortingMap on Manni The Mammoth must be attached alongside a Renderer component.
+
+-----------------------------
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+
+Unloading 211 unused Assets to reduce memory usage. Loaded Objects now: 2159.
+Total: 9.690236 ms (FindLiveObjects: 0.253171 ms CreateObjectMapping: 0.407555 ms MarkObjects: 6.972916 ms  DeleteObjects: 2.053599 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 2159.
+Total: 7.631077 ms (FindLiveObjects: 0.252744 ms CreateObjectMapping: 0.269850 ms MarkObjects: 7.080257 ms  DeleteObjects: 0.026086 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+PlayerStart 'PlayerStart2D' has no Camera On Start
+
+-----------------------------
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Manni The Mammoth cannot find Sorting Map to follow!
+
+-----------------------------
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2157.
+Total: 7.067855 ms (FindLiveObjects: 0.224518 ms CreateObjectMapping: 0.384461 ms MarkObjects: 6.400286 ms  DeleteObjects: 0.057305 ms)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.500641 ms
+New player prefab found - Player deleted
+
+-----------------------------
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+
+Unloading 120 unused Assets to reduce memory usage. Loaded Objects now: 2396.
+Total: 12.646188 ms (FindLiveObjects: 0.246756 ms CreateObjectMapping: 0.396008 ms MarkObjects: 6.484534 ms  DeleteObjects: 5.517605 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 2396.
+Total: 8.520599 ms (FindLiveObjects: 0.304918 ms CreateObjectMapping: 0.439201 ms MarkObjects: 7.755097 ms  DeleteObjects: 0.020099 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+PlayerStart 'first_start' has no Camera On Start
+
+-----------------------------
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 2397.
+Total: 7.906059 ms (FindLiveObjects: 0.247184 ms CreateObjectMapping: 0.434497 ms MarkObjects: 7.179045 ms  DeleteObjects: 0.044048 ms)
+
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 2578 -> priority: 1 
+  Thread -> id: 1fdc -> priority: 1 
